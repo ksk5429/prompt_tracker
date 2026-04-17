@@ -229,10 +229,39 @@ def compute_conversation_flows():
 
 
 def compute_session_quality():
-    """Score sessions by output signals: git commits, files modified, tool diversity."""
+    """
+    Score sessions using 6 practical, meaningful components:
+
+    1. OUTPUT (25pts) — Did the session produce artifacts?
+       Write/Edit calls as fraction of total. A session that writes is more
+       productive than one that only reads, regardless of git commits.
+
+    2. IMPACT (20pts) — Did it produce lasting changes?
+       Git commits + net lines added. Rewards sessions that ship code,
+       but doesn't dominate the score like the old 40pt weight did.
+
+    3. FOCUS (15pts) — Did the session stay on task?
+       Single-project sessions score higher. Context-switching between
+       5 projects in one session suggests thrashing, not productivity.
+
+    4. CRAFT (15pts) — Was the work deliberate?
+       Output/Input ratio (Write+Edit vs Read+Grep). High ratio = generating.
+       Low ratio = consuming. Both are valid, but craft measures creation.
+       Also rewards planning (TodoWrite) and orchestration (Agent).
+
+    5. DEPTH (15pts) — How substantial was the session?
+       Log-scaled tool calls. A 10-call session and a 200-call session both
+       score, but the marginal value of the 500th call is near zero.
+
+    6. PROMPT QUALITY (10pts) — Did the user give clear instructions?
+       Average prompt length (nonzero). Longer, more structured prompts
+       correlate with fewer correction cycles and better outcomes.
+    """
     git_path = OUT_DIR / "git_session_join.csv"
     fp_path = OUT_DIR / "session_fingerprints.csv"
     meta_path = OUT_DIR / "jsonl_session_meta.csv"
+    tool_path = OUT_DIR / "jsonl_tool_calls.csv"
+    msgs_path = OUT_DIR / "jsonl_messages.csv"
 
     # load git commits per session
     git_by_session = defaultdict(lambda: {"commits": 0, "additions": 0, "deletions": 0})
@@ -253,19 +282,41 @@ def compute_session_quality():
             for row in csv.DictReader(f):
                 fingerprints[row["session_id"]] = row
 
-    # load session meta for duration
+    # load session meta
     metas = {}
     if meta_path.exists():
         with open(meta_path, encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 metas[row["session_id"]] = row
 
+    # load tool calls per session for output/input ratio
+    session_tool_counts = defaultdict(Counter)
+    if tool_path.exists():
+        with open(tool_path, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                session_tool_counts[row["session_id"]][row["tool_name"]] += 1
+
+    # load prompt data per session
+    session_prompts = defaultdict(list)
+    if msgs_path.exists():
+        with open(msgs_path, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                length = int(row.get("prompt_length", 0) or 0)
+                if length > 0:
+                    session_prompts[row["session_id"]].append(length)
+
+    OUTPUT_TOOLS = {"Write", "Edit"}
+    INPUT_TOOLS = {"Read", "Grep", "Glob"}
+    PLANNING_TOOLS = {"TodoWrite", "Agent", "ToolSearch"}
+
     rows = []
     for sid, fp in fingerprints.items():
         git = git_by_session.get(sid, {"commits": 0, "additions": 0, "deletions": 0})
         meta = metas.get(sid, {})
+        tools = session_tool_counts.get(sid, Counter())
+        prompts = session_prompts.get(sid, [])
 
-        # compute duration
+        # duration
         duration_min = 0
         first_ts = meta.get("first_timestamp", "")
         last_ts = meta.get("last_timestamp", "")
@@ -281,22 +332,61 @@ def compute_session_quality():
         total_calls = int(fp.get("total_tool_calls", 0))
         unique_tools = int(fp.get("unique_tools", 0))
 
-        # quality score (0-100): weighted composite
-        # git output (40%), tool diversity (20%), efficiency (20%), session depth (20%)
-        git_score = min(git["commits"] * 25, 40)  # 0-40: each commit = 25pts, cap 40
-        diversity_score = min(unique_tools * 3, 20)  # 0-20
-        efficiency_score = 0
-        if duration_min > 0 and total_calls > 0:
-            calls_per_min = total_calls / duration_min
-            efficiency_score = min(calls_per_min * 5, 20)  # 0-20
-        depth_score = min(total_calls / 10, 20)  # 0-20: 200+ calls = max
+        # ── Component 1: OUTPUT (0-25) ──
+        # What fraction of tool calls produced artifacts?
+        output_calls = sum(tools.get(t, 0) for t in OUTPUT_TOOLS)
+        output_pct = output_calls / max(total_calls, 1)
+        # 50%+ output = max score. Scale linearly.
+        output_score = round(min(output_pct / 0.50 * 25, 25), 1)
 
-        quality = round(git_score + diversity_score + efficiency_score + depth_score, 1)
+        # ── Component 2: IMPACT (0-20) ──
+        # Git commits (10pts) + net lines (10pts)
+        commit_pts = min(git["commits"] * 5, 10)  # 2 commits = max
+        net_lines = git["additions"] + git["deletions"]
+        lines_pts = min(math.log10(max(net_lines, 1)) * 3, 10) if net_lines > 0 else 0
+        impact_score = round(commit_pts + lines_pts, 1)
+
+        # ── Component 3: FOCUS (0-15) ──
+        # Single-project focus. Penalize multi-project thrashing.
+        # This uses the session's own project (always 1 from fingerprint).
+        # But also check if tools operated on many different paths.
+        # Simple proxy: unique_tools < 5 = focused, > 10 = scattered
+        focus_score = round(min(15, 15 - max(unique_tools - 5, 0) * 1.5), 1)
+        focus_score = max(focus_score, 3)  # floor at 3
+
+        # ── Component 4: CRAFT (0-15) ──
+        # Output/Input ratio + planning bonus
+        input_calls = sum(tools.get(t, 0) for t in INPUT_TOOLS)
+        planning_calls = sum(tools.get(t, 0) for t in PLANNING_TOOLS)
+        # Craft = (output + planning) / (input + 1), scaled
+        craft_ratio = (output_calls + planning_calls) / max(input_calls, 1)
+        craft_score = round(min(craft_ratio * 5, 12), 1)
+        # bonus for using Agent (orchestration sophistication)
+        if tools.get("Agent", 0) > 0:
+            craft_score = min(craft_score + 3, 15)
+        craft_score = round(craft_score, 1)
+
+        # ── Component 5: DEPTH (0-15) ──
+        # Log-scaled tool calls. Diminishing returns past ~100 calls.
+        if total_calls > 0:
+            depth_score = round(min(math.log2(total_calls) * 2, 15), 1)
+        else:
+            depth_score = 0
+
+        # ── Component 6: PROMPT QUALITY (0-10) ──
+        # Average prompt length. Longer = more structured instructions.
+        # Median of 102 chars, 90th pctile of 927 chars.
+        avg_prompt = sum(prompts) / max(len(prompts), 1) if prompts else 0
+        # Scale: 500+ chars avg = full score
+        prompt_score = round(min(avg_prompt / 500 * 10, 10), 1)
+
+        quality = round(output_score + impact_score + focus_score +
+                        craft_score + depth_score + prompt_score, 1)
 
         rows.append({
             "session_id": sid,
             "date": date,
-            "project": meta.get("project", fp.get("project", "")),
+            "project": meta.get("project", ""),
             "session_type": fp.get("session_type", ""),
             "duration_min": duration_min,
             "total_tool_calls": total_calls,
@@ -304,20 +394,32 @@ def compute_session_quality():
             "additions": git["additions"],
             "deletions": git["deletions"],
             "quality_score": quality,
-            "git_score": git_score,
-            "diversity_score": diversity_score,
-            "efficiency_score": round(efficiency_score, 1),
-            "depth_score": round(depth_score, 1),
+            "output_score": output_score,
+            "impact_score": impact_score,
+            "focus_score": focus_score,
+            "craft_score": craft_score,
+            "depth_score": depth_score,
+            "prompt_score": prompt_score,
         })
 
     rows.sort(key=lambda x: x.get("date", ""))
     fields = ["session_id", "date", "project", "session_type", "duration_min",
               "total_tool_calls", "commits", "additions", "deletions",
-              "quality_score", "git_score", "diversity_score", "efficiency_score", "depth_score"]
+              "quality_score", "output_score", "impact_score", "focus_score",
+              "craft_score", "depth_score", "prompt_score"]
     _write(OUT_DIR / "session_quality.csv", rows, fields)
     if rows:
         avg_q = sum(r["quality_score"] for r in rows) / len(rows)
-        print(f"[derived] quality: {len(rows)} sessions, avg score {avg_q:.1f}/100")
+        # breakdown
+        avg_o = sum(r["output_score"] for r in rows) / len(rows)
+        avg_i = sum(r["impact_score"] for r in rows) / len(rows)
+        avg_f = sum(r["focus_score"] for r in rows) / len(rows)
+        avg_c = sum(r["craft_score"] for r in rows) / len(rows)
+        avg_d = sum(r["depth_score"] for r in rows) / len(rows)
+        avg_p = sum(r["prompt_score"] for r in rows) / len(rows)
+        print(f"[derived] quality: {len(rows)} sessions, avg {avg_q:.1f}/100")
+        print(f"  output={avg_o:.1f}/25  impact={avg_i:.1f}/20  focus={avg_f:.1f}/15  "
+              f"craft={avg_c:.1f}/15  depth={avg_d:.1f}/15  prompt={avg_p:.1f}/10")
 
 
 def compute_model_routing():

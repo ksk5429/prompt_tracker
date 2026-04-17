@@ -786,8 +786,12 @@ def build_quality_fig(data):
         # breakdown stacked bar (sample top 20 sessions)
         top20 = qdf.nlargest(20, "quality_score")
         for col_name, color, label in [
-            ("git_score", SEQ[1], "Git"), ("diversity_score", SEQ[0], "Diversity"),
-            ("efficiency_score", SEQ[3], "Efficiency"), ("depth_score", SEQ[4], "Depth"),
+            ("output_score", SEQ[0], "Output"),
+            ("impact_score", SEQ[1], "Impact"),
+            ("focus_score", SEQ[6], "Focus"),
+            ("craft_score", SEQ[3], "Craft"),
+            ("depth_score", SEQ[4], "Depth"),
+            ("prompt_score", SEQ[5], "Prompt"),
         ]:
             fig.add_trace(go.Bar(x=top20["session_id"].str[:8], y=top20[col_name],
                                  name=label, marker_color=color), row=2, col=1)
