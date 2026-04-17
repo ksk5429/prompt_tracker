@@ -1,0 +1,4 @@
+model,input_tokens,output_tokens,cache_read_tokens,cache_creation_tokens
+claude-opus-4-5-20251101,2754069,4224960,1543179498,124557352
+claude-sonnet-4-5-20250929,382856,407992,111266518,9780655
+claude-opus-4-6,1016774,113239,1103954243,56991908
