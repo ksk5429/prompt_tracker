@@ -1,0 +1,7 @@
+model,session_type,requests,output_tokens
+claude-opus-4-6,mixed,6572,5838811
+claude-opus-4-6,coding,6176,10318189
+claude-opus-4-6,research,1005,1910730
+claude-opus-4-6,devops,6667,4210805
+claude-sonnet-4-6,devops,14,6199
+claude-sonnet-4-6,coding,29,41317

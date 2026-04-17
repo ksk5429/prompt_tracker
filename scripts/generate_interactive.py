@@ -103,6 +103,26 @@ def load_data():
     else:
         data["session_detail"] = pd.DataFrame()
 
+    # ── Tier 2 data ──
+    for name, fname in [
+        ("fingerprints", "session_fingerprints.csv"),
+        ("cache_eff", "cache_efficiency.csv"),
+        ("prompt_analysis", "prompt_analysis.csv"),
+        ("tool_bigrams", "tool_bigrams.csv"),
+        ("session_quality", "session_quality.csv"),
+        ("git_join", "git_session_join.csv"),
+        ("session_sequences", "session_sequences.csv"),
+        ("daily_model_detail", "daily_model_detail.csv"),
+    ]:
+        p = PROCESSED / fname
+        if p.exists():
+            df = pd.read_csv(p)
+            if "date" in df.columns:
+                df["date"] = pd.to_datetime(df["date"], errors="coerce")
+            data[name] = df
+        else:
+            data[name] = pd.DataFrame()
+
     return data
 
 
@@ -154,6 +174,24 @@ def compute_kpis(data):
         top = sessions.groupby("project")["message_count"].sum().idxmax()
         top_project = top
 
+    # cache hit rate
+    cache_eff = data.get("cache_eff", pd.DataFrame())
+    cache_hit = "N/A"
+    if not cache_eff.empty:
+        cache_hit = f"{cache_eff['cache_hit_rate'].mean():.1f}%"
+
+    # git commits matched
+    git_join = data.get("git_join", pd.DataFrame())
+    commits_matched = 0
+    if not git_join.empty:
+        commits_matched = git_join[git_join["session_id"] != ""].shape[0]
+
+    # avg quality
+    quality = data.get("session_quality", pd.DataFrame())
+    avg_quality = "N/A"
+    if not quality.empty:
+        avg_quality = f"{quality['quality_score'].mean():.1f}"
+
     return [
         ("Total Sessions", f"{total_sessions:,}"),
         ("Total Messages", f"{total_msgs:,}"),
@@ -161,6 +199,9 @@ def compute_kpis(data):
         ("Active Projects", f"{active_projects}"),
         ("Avg Duration", f"{avg_duration:.0f} min"),
         ("Longest Streak", f"{streak} days"),
+        ("Cache Hit Rate", cache_hit),
+        ("Git Commits", f"{commits_matched}"),
+        ("Avg Quality", avg_quality),
         ("Top Project", top_project),
     ]
 
@@ -521,6 +562,260 @@ def build_intelligence_fig(data):
     return fig
 
 
+# ── Tab 8: Flows (Sankey + tool bigrams) ──────────────────
+def build_flows_fig(data):
+    bigrams = data.get("tool_bigrams", pd.DataFrame())
+    sequences = data.get("session_sequences", pd.DataFrame())
+
+    fig = make_subplots(rows=2, cols=1,
+                        subplot_titles=("Top Tool Transitions (Sankey)",
+                                        "Session Opening Patterns"),
+                        vertical_spacing=0.12,
+                        specs=[[{"type": "sankey"}], [{"type": "xy"}]])
+
+    if not bigrams.empty:
+        top = bigrams.head(40)
+        all_tools = list(set(top["from_tool"].tolist() + top["to_tool"].tolist()))
+        tool_idx = {t: i for i, t in enumerate(all_tools)}
+        fig.add_trace(go.Sankey(
+            node=dict(label=all_tools,
+                      color=[SEQ[i % len(SEQ)] for i in range(len(all_tools))],
+                      pad=15, thickness=20),
+            link=dict(source=[tool_idx[t] for t in top["from_tool"]],
+                      target=[tool_idx[t] for t in top["to_tool"]],
+                      value=top["count"].tolist(),
+                      color="rgba(88,166,255,0.2)"),
+        ), row=1, col=1)
+
+    # opener patterns
+    if not sequences.empty:
+        openers = sequences["opener_pattern"].value_counts().head(15).sort_values()
+        fig.add_trace(go.Bar(x=openers.values, y=openers.index, orientation="h",
+                             marker_color=SEQ[1], name="Frequency"), row=2, col=1)
+
+    fig.update_layout(height=900, showlegend=False, **LAYOUT_DEFAULTS)
+    return fig
+
+
+# ── Tab 9: Fingerprints ───────────────────────────────────
+def build_fingerprints_fig(data):
+    fp = data.get("fingerprints", pd.DataFrame())
+    if fp.empty:
+        return go.Figure().update_layout(title="No fingerprint data", **LAYOUT_DEFAULTS)
+
+    fig = make_subplots(rows=2, cols=2,
+                        subplot_titles=("Session Types Distribution",
+                                        "Tool Profile by Session Type",
+                                        "Tool Calls vs Unique Tools",
+                                        "Session Type Over Time"),
+                        specs=[[{"type": "pie"}, {}], [{}, {}]],
+                        vertical_spacing=0.12, horizontal_spacing=0.08)
+
+    # pie: session types
+    type_counts = fp["session_type"].value_counts()
+    type_colors = {"coding": SEQ[0], "research": SEQ[1], "devops": SEQ[2],
+                   "orchestration": SEQ[3], "mixed": SEQ[4], "web_research": SEQ[5]}
+    colors = [type_colors.get(t, COLORS["dim"]) for t in type_counts.index]
+    fig.add_trace(go.Pie(labels=type_counts.index, values=type_counts.values,
+                         marker=dict(colors=colors), hole=0.4,
+                         textinfo="label+percent"), row=1, col=1)
+
+    # radar-style bar: avg tool pcts by type
+    pct_cols = ["read_pct", "write_pct", "shell_pct", "orchestrate_pct", "web_pct"]
+    type_means = fp.groupby("session_type")[pct_cols].mean()
+    for i, stype in enumerate(type_means.index):
+        fig.add_trace(go.Bar(x=pct_cols, y=type_means.loc[stype].values,
+                             name=stype, marker_color=type_colors.get(stype, SEQ[i % len(SEQ)])),
+                      row=1, col=2)
+
+    # scatter: total_tool_calls vs unique_tools
+    for stype in fp["session_type"].unique():
+        subset = fp[fp["session_type"] == stype]
+        fig.add_trace(go.Scatter(x=subset["total_tool_calls"], y=subset["unique_tools"],
+                                 mode="markers", name=stype,
+                                 marker=dict(color=type_colors.get(stype, COLORS["dim"]),
+                                           size=8, opacity=0.6)),
+                      row=2, col=1)
+
+    # session type over time (needs quality data for dates)
+    quality = data.get("session_quality", pd.DataFrame())
+    if not quality.empty and "session_type" in quality.columns:
+        qdf = quality.dropna(subset=["date"]).copy()
+        qdf["week"] = qdf["date"].dt.to_period("W").dt.start_time
+        weekly_types = qdf.groupby(["week", "session_type"]).size().unstack(fill_value=0)
+        for i, col in enumerate(weekly_types.columns):
+            fig.add_trace(go.Bar(x=weekly_types.index, y=weekly_types[col],
+                                 name=col, marker_color=type_colors.get(col, SEQ[i]),
+                                 showlegend=False), row=2, col=2)
+        fig.update_layout(barmode="stack")
+
+    fig.update_layout(height=800, **LAYOUT_DEFAULTS)
+    return fig
+
+
+# ── Tab 10: Costs & Cache ─────────────────────────────────
+def build_costs_fig(data):
+    cache_eff = data.get("cache_eff", pd.DataFrame())
+    daily_model = data.get("daily_model_detail", pd.DataFrame())
+
+    fig = make_subplots(rows=3, cols=1,
+                        subplot_titles=("Cache Hit Rate Over Time",
+                                        "Daily Output Tokens by Model",
+                                        "Cache Read vs Creation Tokens"),
+                        vertical_spacing=0.08, shared_xaxes=True)
+
+    # cache hit rate
+    if not cache_eff.empty:
+        fig.add_trace(go.Scatter(x=cache_eff["date"], y=cache_eff["cache_hit_rate"],
+                                 name="Hit Rate %", fill="tozeroy",
+                                 fillcolor="rgba(63,185,80,0.15)",
+                                 line=dict(color=SEQ[1], width=2)), row=1, col=1)
+        fig.add_hline(y=90, line_dash="dash", line_color=COLORS["dim"],
+                      annotation_text="90% target", row=1, col=1)
+
+    # daily output tokens by model
+    if not daily_model.empty:
+        model_names = {"claude-opus-4-5-20251101": "Opus 4.5",
+                       "claude-sonnet-4-5-20250929": "Sonnet 4.5",
+                       "claude-opus-4-6": "Opus 4.6"}
+        for i, (mid, label) in enumerate(model_names.items()):
+            subset = daily_model[daily_model["model"] == mid]
+            if not subset.empty:
+                fig.add_trace(go.Bar(x=subset["date"], y=subset["output_tokens"],
+                                     name=label, marker_color=SEQ[i], opacity=0.7),
+                              row=2, col=1)
+
+    # cache read vs creation
+    if not cache_eff.empty:
+        fig.add_trace(go.Bar(x=cache_eff["date"], y=cache_eff["cache_read_tokens"],
+                             name="Cache Read", marker_color=SEQ[1], opacity=0.6), row=3, col=1)
+        fig.add_trace(go.Bar(x=cache_eff["date"], y=cache_eff["cache_creation_tokens"],
+                             name="Cache Write", marker_color=SEQ[3], opacity=0.6), row=3, col=1)
+
+    fig.update_layout(height=900, barmode="stack", **LAYOUT_DEFAULTS)
+    return fig
+
+
+# ── Tab 11: Git Impact ────────────────────────────────────
+def build_git_fig(data):
+    git = data.get("git_join", pd.DataFrame())
+    quality = data.get("session_quality", pd.DataFrame())
+
+    fig = make_subplots(rows=2, cols=2,
+                        subplot_titles=("Commits Over Time",
+                                        "Session-Matched vs Unmatched Commits",
+                                        "Lines Changed per Session (matched only)",
+                                        "Code Output: Additions by Project"),
+                        vertical_spacing=0.12, horizontal_spacing=0.08)
+
+    if not git.empty:
+        git_dated = git.copy()
+        git_dated["date"] = pd.to_datetime(git_dated["commit_timestamp"].str[:10], errors="coerce")
+
+        # commits over time
+        daily_commits = git_dated.groupby("date").size()
+        fig.add_trace(go.Bar(x=daily_commits.index, y=daily_commits.values,
+                             name="Commits", marker_color=SEQ[0], opacity=0.6), row=1, col=1)
+        if len(daily_commits) > 7:
+            roll = daily_commits.rolling(7, min_periods=3).mean()
+            fig.add_trace(go.Scatter(x=roll.index, y=roll.values, name="7d avg",
+                                     line=dict(color=SEQ[0], width=3)), row=1, col=1)
+
+        # matched vs unmatched
+        matched = git[git["session_id"] != ""].shape[0]
+        unmatched = git[git["session_id"] == ""].shape[0]
+        fig.add_trace(go.Bar(x=["Matched to Session", "No Session"],
+                             y=[matched, unmatched],
+                             marker_color=[SEQ[1], SEQ[2]]), row=1, col=2)
+
+        # lines changed per matched session
+        matched_df = git[git["session_id"] != ""].copy()
+        if not matched_df.empty:
+            session_lines = matched_df.groupby("session_id").agg(
+                additions=("additions", "sum"),
+                deletions=("deletions", "sum"),
+            ).reset_index()
+            fig.add_trace(go.Histogram(x=session_lines["additions"], nbinsx=25,
+                                       name="Additions", marker_color=SEQ[1], opacity=0.7),
+                          row=2, col=1)
+
+        # additions by repo
+        repo_adds = git.groupby("repo")["additions"].sum().sort_values()
+        fig.add_trace(go.Bar(x=repo_adds.values, y=repo_adds.index, orientation="h",
+                             marker_color=SEQ[4], name="Additions"), row=2, col=2)
+
+    fig.update_layout(height=750, showlegend=False, **LAYOUT_DEFAULTS)
+    return fig
+
+
+# ── Tab 12: Quality & Prompts ─────────────────────────────
+def build_quality_fig(data):
+    quality = data.get("session_quality", pd.DataFrame())
+    prompts = data.get("prompt_analysis", pd.DataFrame())
+
+    fig = make_subplots(rows=3, cols=2,
+                        subplot_titles=("Session Quality Score Over Time",
+                                        "Quality Score Distribution",
+                                        "Quality Breakdown by Component",
+                                        "Quality by Session Type",
+                                        "Prompt Length Trend",
+                                        "Prompt Words per Day"),
+                        vertical_spacing=0.08, horizontal_spacing=0.08)
+
+    if not quality.empty:
+        qdf = quality.dropna(subset=["date"]).sort_values("date")
+
+        # quality over time
+        fig.add_trace(go.Scatter(x=qdf["date"], y=qdf["quality_score"],
+                                 mode="markers", name="Quality",
+                                 marker=dict(color=qdf["quality_score"],
+                                           colorscale="RdYlGn", size=8,
+                                           cmin=0, cmax=80, opacity=0.7)),
+                      row=1, col=1)
+        if len(qdf) >= 5:
+            roll = qdf.set_index("date")["quality_score"].rolling("14D").mean()
+            fig.add_trace(go.Scatter(x=roll.index, y=roll.values, name="14d avg",
+                                     line=dict(color=COLORS["accent"], width=3)),
+                          row=1, col=1)
+
+        # histogram
+        fig.add_trace(go.Histogram(x=qdf["quality_score"], nbinsx=20,
+                                   marker_color=SEQ[0], opacity=0.7, name="Score"),
+                      row=1, col=2)
+
+        # breakdown stacked bar (sample top 20 sessions)
+        top20 = qdf.nlargest(20, "quality_score")
+        for col_name, color, label in [
+            ("git_score", SEQ[1], "Git"), ("diversity_score", SEQ[0], "Diversity"),
+            ("efficiency_score", SEQ[3], "Efficiency"), ("depth_score", SEQ[4], "Depth"),
+        ]:
+            fig.add_trace(go.Bar(x=top20["session_id"].str[:8], y=top20[col_name],
+                                 name=label, marker_color=color), row=2, col=1)
+        fig.update_layout(barmode="stack")
+
+        # by session type
+        if "session_type" in qdf.columns:
+            type_quality = qdf.groupby("session_type")["quality_score"].mean().sort_values()
+            type_colors = {"coding": SEQ[0], "research": SEQ[1], "devops": SEQ[2],
+                           "orchestration": SEQ[3], "mixed": SEQ[4]}
+            colors = [type_colors.get(t, COLORS["dim"]) for t in type_quality.index]
+            fig.add_trace(go.Bar(x=type_quality.index, y=type_quality.values,
+                                 marker_color=colors, name="Avg Quality"),
+                          row=2, col=2)
+
+    # prompt analysis
+    if not prompts.empty:
+        pdf = prompts.sort_values("date")
+        fig.add_trace(go.Scatter(x=pdf["date"], y=pdf["avg_prompt_length"],
+                                 name="Avg Length (chars)",
+                                 line=dict(color=SEQ[5], width=2)), row=3, col=1)
+        fig.add_trace(go.Bar(x=pdf["date"], y=pdf["avg_prompt_words"],
+                             name="Avg Words", marker_color=SEQ[6], opacity=0.6), row=3, col=2)
+
+    fig.update_layout(height=1000, **LAYOUT_DEFAULTS)
+    return fig
+
+
 # ── Assemble page ─────────────────────────────────────────
 def build_single_page():
     data = load_data()
@@ -536,6 +831,11 @@ def build_single_page():
         "heatmaps": fig_to_div(build_heatmap_fig(data), "fig-heatmaps"),
         "models": fig_to_div(build_models_fig(data), "fig-models"),
         "intelligence": fig_to_div(build_intelligence_fig(data), "fig-intelligence"),
+        "flows": fig_to_div(build_flows_fig(data), "fig-flows"),
+        "fingerprints": fig_to_div(build_fingerprints_fig(data), "fig-fingerprints"),
+        "costs": fig_to_div(build_costs_fig(data), "fig-costs"),
+        "git": fig_to_div(build_git_fig(data), "fig-git"),
+        "quality": fig_to_div(build_quality_fig(data), "fig-quality"),
     }
 
     # KPI HTML
@@ -606,6 +906,11 @@ footer a {{ color:var(--accent); }}
         <div class="tab" data-tab="heatmaps">Heatmaps</div>
         <div class="tab" data-tab="models">Models</div>
         <div class="tab" data-tab="intelligence">Intelligence</div>
+        <div class="tab" data-tab="flows">Flows</div>
+        <div class="tab" data-tab="fingerprints">Fingerprints</div>
+        <div class="tab" data-tab="costs">Costs &amp; Cache</div>
+        <div class="tab" data-tab="git">Git Impact</div>
+        <div class="tab" data-tab="quality">Quality</div>
     </div>
 
     <div class="panel active" id="panel-timeline">
@@ -628,6 +933,21 @@ footer a {{ color:var(--accent); }}
     </div>
     <div class="panel" id="panel-intelligence">
         <div class="chart-card">{divs["intelligence"]}</div>
+    </div>
+    <div class="panel" id="panel-flows">
+        <div class="chart-card">{divs["flows"]}</div>
+    </div>
+    <div class="panel" id="panel-fingerprints">
+        <div class="chart-card">{divs["fingerprints"]}</div>
+    </div>
+    <div class="panel" id="panel-costs">
+        <div class="chart-card">{divs["costs"]}</div>
+    </div>
+    <div class="panel" id="panel-git">
+        <div class="chart-card">{divs["git"]}</div>
+    </div>
+    <div class="panel" id="panel-quality">
+        <div class="chart-card">{divs["quality"]}</div>
     </div>
 
     <footer>

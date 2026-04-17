@@ -227,6 +227,21 @@ def main():
     merge_sessions()
     merge_tokens()
 
+    # Step 4: deep JSONL extraction
+    print("\n--- Running ETL: JSONL deep extraction ---")
+    from etl_jsonl_deep import run as run_jsonl
+    run_jsonl()
+
+    # Step 5: git correlation
+    print("\n--- Running ETL: git correlation ---")
+    from etl_git_correlate import run as run_git
+    run_git()
+
+    # Step 6: derived metrics
+    print("\n--- Computing derived metrics ---")
+    from derived_metrics import run as run_derived
+    run_derived()
+
     print("\n" + "=" * 60)
     print("ETL complete! Processed CSVs in data/processed/")
     print("=" * 60)

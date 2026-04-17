@@ -1,0 +1,1129 @@
+commit_hash,commit_timestamp,commit_subject,commit_author,repo,session_id,session_project,additions,deletions,files_changed
+e68233cd5d05,2026-03-30T14:21:40-04:00,fix(ci): harden codex hook regression test (#1028),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+656cf4c94a3f,2026-03-30T04:58:48-04:00,Merge pull request #833 from shreyas-lyzr/feat/gitagent-format,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,0,0,0
+0220202a61f3,2026-03-30T04:52:29-04:00,Merge pull request #831 from dani-mezei/fix/clv2-subdirectory-project-detection,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,0,0,0
+5a2c9f555831,2026-03-30T04:50:27-04:00,Merge pull request #850 from eamanc-lab/feat/add-openclaw-persona-forge-v2,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,0,0,0
+7ff2f0748e54,2026-03-30T04:49:55-04:00,feat: add gitagent format for cross-harness portability,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,209,0,3
+3f6a14acde43,2026-03-30T04:46:31-04:00,fix(clv2): resolve cwd to git root before project detection,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,248,2,2
+d6c7f8fb0afd,2026-03-30T04:41:47-04:00,fix(skills): harden openclaw persona forge,Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,168,56,6
+7253d0ca98d4,2026-03-30T04:31:09-04:00,test: isolate codex hook sync env (#1023),Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,17,2,1
+118e57e14bdc,2026-03-30T15:14:49+08:00,feat(hooks): add WSL desktop notification support via PowerShell + BurntToast (#1019),QWsin,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,85,11,2
+a4d4b1d756f0,2026-03-29T23:10:10-07:00,fix: resolve MINGW64 double-path conversion in install.sh (#1015),Michael,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,10,1,1
+c90566f9be5a,2026-03-30T02:09:43-04:00,fix: harden codex sync CI hermeticity (#1020),Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,15,3,1
+b9a01d3c3240,2026-03-30T02:01:56-04:00,fix: audit consumer projects from cwd (#1014),Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,323,53,4
+fab80c99b774,2026-03-30T02:01:54-04:00,fix: harden Trae install ownership (#1013),Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,296,39,5
+8846210ca2ce,2026-03-30T01:50:17-04:00,fix: unblock unicode safety CI lint (#1017),Affaan Mustafa,TREE_OF_THOUGHT,28c666e9-039b-4de6-b3e4-f5fbc0df9862,TREE,66,22,4
+cff28efb3427,2026-03-29T21:41:02-04:00,Merge pull request #854 from singularityjason/feat/add-omega-memory-mcp,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b575f2e3ebc6,2026-03-29T21:39:55-04:00,fix: align omega-memory config description,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0f065af311af,2026-03-24T13:42:41+08:00,feat: add omega-memory MCP server to mcp-configs,Jason Sosa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,5,0,1
+ded5d826a462,2026-03-29T21:30:27-04:00,Merge pull request #1011 from affaan-m/fix/stop-hook-and-mcp-schema,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ae272da28dec,2026-03-29T21:27:46-04:00,Merge pull request #1002 from affaan-m/fix/unicode-safety-hardening,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c39aa22c5a70,2026-03-29T21:26:56-04:00,fix: harden lifecycle hook launchers and mcp schema,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7483d646e4b9,2026-03-29T09:06:44-04:00,fix: narrow unicode cleanup scope,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+432a45274ec4,2026-03-29T08:59:25-04:00,chore: revert lockfile churn,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+866d9ebb5364,2026-03-29T08:59:06-04:00,fix: harden unicode safety checks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dd675d4258cb,2026-03-29T21:16:09-04:00,Merge pull request #1007 from AndriyKalashnykov/chore/pin-actions-and-update-claude-md,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+db12d3d83886,2026-03-29T21:16:01-04:00,Merge pull request #1004 from ohashi-mizuki/fix/pre-push-skip-branch-deletion,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+46f37ae4fbd7,2026-03-29T17:16:56-04:00,chore: pin actions to commit SHAs and add Skills section to CLAUDE.md,Andriy Kalashnykov,TREE_OF_THOUGHT,,,0,0,0
+0c166e14da27,2026-03-29T23:09:26+09:00,fix: skip pre-push checks on branch deletion,ohashi-mizuki,TREE_OF_THOUGHT,,,0,0,0
+527c79350c21,2026-03-29T00:26:32-04:00,Merge pull request #1000 from affaan-m/fix/codex-context7-compat-tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0ebcfc368e19,2026-03-29T00:26:16-04:00,fix(codex): broaden context7 config checks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bec1ebf76ddd,2026-03-29T00:22:23-04:00,Merge pull request #999 from affaan-m/fix/clv2-config-override-rebase,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+be76918850e4,2026-03-29T00:21:55-04:00,fix(clv2): honor CLV2_CONFIG in start-observer,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+99a154a908e3,2026-03-29T00:20:29-04:00,Merge pull request #998 from affaan-m/fix/token-budget-advisor-trigger-clarity,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ebf0f135bba6,2026-03-29T00:20:04-04:00,fix(skills): clarify token-budget-advisor triggers,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2d27da52e28f,2026-03-29T00:20:01-04:00,Merge pull request #997 from affaan-m/fix/readme-agent-count-tree,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+65c4a0f6ba2a,2026-03-29T00:19:52-04:00,docs(readme): fix agent count in repo tree,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ab49c9adf5ad,2026-03-29T00:16:21-04:00,Merge pull request #920 from Xabilimon1/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b7a82cf240c8,2026-03-29T00:15:54-04:00,Merge origin/main into Xabilimon1/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9a55fd069bba,2026-03-29T00:14:17-04:00,fix(skills): harden token budget advisor skill,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d9e8305aa1d1,2026-03-29T00:14:00-04:00,Merge pull request #992 from Lidang-Jiang/fix/doc-file-warning-denylist,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f2bf72c00514,2026-03-29T00:13:48-04:00,Merge branch 'main' into fix/doc-file-warning-denylist,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3ae0df781f46,2026-03-29T00:08:03-04:00,Merge pull request #893 from up2itnow0822/feat/agent-payment-x402-skill,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a346a304b0d6,2026-03-29T00:07:28-04:00,Merge pull request #926 from xingzihai/feature/pre-commit-quality-hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+81acf0c92874,2026-03-29T00:07:18-04:00,fix(hooks): make pre-commit quality checks enforce staged state,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+06a77911e672,2026-03-29T00:04:54-04:00,Merge pull request #993 from affaan-m/fix/healthcare-eval-harness-followup,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9406f35fab84,2026-03-29T00:04:36-04:00,fix(docs): repair healthcare eval harness examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c5e3658ba603,2026-03-28T23:25:30-04:00,Merge pull request #955 from drkeyurpatel-wq/feat/healthcare-patterns,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+eeeea506a6b8,2026-03-28T23:24:10-04:00,Merge pull request #959 from sreedhargs89/feat/skill-context-keeper,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fc1ea4fbeae7,2026-03-28T23:24:03-04:00,Merge pull request #818 from 694344851/docs/zh-cn-prune-command,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+00787d68e466,2026-03-28T23:23:54-04:00,fix(ck): preserve display names and harden git helpers,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1e3572becff4,2026-03-28T23:23:51-04:00,fix(docs): correct zh-CN prune frontmatter,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+74621683773d,2026-03-29T10:14:53+08:00,fix(lint): prefix unused options parameter with underscore,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+3c3781ca4385,2026-03-29T10:09:02+08:00,refactor: address reviewer feedback,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+27d71c954840,2026-03-29T09:54:23+08:00,fix(hooks): port doc-file-warning denylist policy to current hook runtime,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+6f16e75f9da1,2026-03-28T20:46:08-04:00,Merge pull request #985 from likzn/feature/trae-integration,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0d30da1fc701,2026-03-28T20:45:51-04:00,Merge branch 'main' into feature/trae-integration,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e686bcbc8201,2026-03-28T20:45:37-04:00,fix(trae): harden install and uninstall flow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+25c8a5de08ef,2026-03-28T20:44:28-04:00,Merge pull request #991 from affaan-m/affaan/laravel-plugin-discovery-refresh,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ec104c94c5e1,2026-03-28T20:43:26-04:00,fix(skills): wire laravel plugin discovery into installs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+14a51404c0a5,2026-03-28T20:41:45-04:00,fix(skills): align laravel plugin discovery docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+666c63920649,2026-03-25T22:36:45+01:00,feat(skills): add laravel-plugin-discovery skill with LaraPlugins MCP,Daniel Petrica,TREE_OF_THOUGHT,,,0,0,0
+a8e088a54e50,2026-03-28T20:41:59-04:00,Merge pull request #923 from danielpetrica/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+eac0228f8810,2026-03-28T20:41:45-04:00,fix(skills): align laravel plugin discovery docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b6e3434ff499,2026-03-28T20:36:59-04:00,Merge pull request #858 from sliver2er/fix/install-missing-ajv-dependency,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4eaee83448b7,2026-03-28T20:36:43-04:00,fix(install): stop after npm bootstrap failures on powershell,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1e43639cc71b,2026-03-28T20:36:11-04:00,Merge pull request #855 from Yumerain/fix/zh-cn-doc-format,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+766f84647884,2026-03-28T20:35:44-04:00,Merge pull request #897 from techiro/docs/ja-JP-translate-plain-text-blocks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dd38518afef7,2026-03-28T20:35:25-04:00,fix(docs): restore canonical runtime strings in ja-JP docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c1d98b071e16,2026-03-28T20:32:12-04:00,Merge pull request #892 from chris-yyau/fix/remove-redundant-skill-sync,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+70b98f31784b,2026-03-28T20:30:16-04:00,Merge pull request #911 from haibindev/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dcc4d914d222,2026-03-28T20:29:51-04:00,fix(skills): tighten repo-scan install flow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+71219ff65600,2026-03-28T20:24:01-04:00,Merge pull request #929 from xingzihai/feat/skill-development-guide,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e815f0d05c0b,2026-03-28T20:23:34-04:00,fix(docs): resolve skill guide review issues,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b3a43f34e62d,2026-03-28T20:22:07-04:00,Merge pull request #896 from ToniDonDoni/codex/tdd-workflow-red-green-guards,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0d26f5295d4f,2026-03-28T20:21:28-04:00,Merge pull request #990 from affaan-m/fix/yarn-lock-sync,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9181382065df,2026-03-28T20:20:54-04:00,fix(ci): sync yarn lockfile,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9434e077495b,2026-03-28T20:16:26-04:00,Merge pull request #989 from affaan-m/fix/ecc2-analysis-report-facts,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9cde3427e256,2026-03-28T20:15:46-04:00,fix(docs): correct ecc2 analysis report facts,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c6b4c719b2ba,2026-03-28T20:11:46-04:00,Merge pull request #952 from anuragg-saxenaa/pr-950,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f98207feea4c,2026-03-28T20:09:57-04:00,Merge pull request #960 from senoldogann/feat/codex-plugin-manifest,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+52e9bd58f12b,2026-03-28T20:09:14-04:00,fix(codex): tighten manifest docs and test guards,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4257c093ca23,2026-03-28T20:06:42-04:00,fix(codex): point marketplace plugin path at repo root,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+23d743b92c8a,2026-03-28T14:46:43+02:00,fix(skills): add missing YAML frontmatter to 7 skills,senoldogann,TREE_OF_THOUGHT,,,0,0,0
+414ea90e11a2,2026-03-27T18:28:18+02:00,fix(codex): correct marketplace.json plugin source path,senoldogann,TREE_OF_THOUGHT,,,0,0,0
+d473cf87e61e,2026-03-27T09:26:50+02:00,feat(codex): add Codex native plugin manifest and fix Claude plugin.json,senoldogann,TREE_OF_THOUGHT,,,0,0,0
+64847d0a21e3,2026-03-28T20:04:53-04:00,Merge pull request #986 from Infiniteyieldai/claude/evaluate-repo-comparison-ASZ9Y,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c865d4c6767f,2026-03-28T20:03:10-04:00,docs: fix ECC setup reference drift,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+72de19effd9a,2026-03-21T18:28:00Z,chore: apply Claude setup improvements,Claude,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,47,0,1
+56076edd48ab,2026-03-21T18:09:15Z,docs: add commands quick reference guide (59 commands),Claude,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,159,0,1
+04d7eeb16fb1,2026-03-21T17:23:08Z,docs: add repo and fork assessment with setup recommendations,Claude,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,194,0,1
+4e7773c2ce18,2026-03-21T16:28:00Z,docs: add repo evaluation vs current setup comparison,Claude,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,122,0,1
+a3fc90f7ac28,2026-03-28T19:58:55-04:00,Merge pull request #964 from affaan-m/fix/claude-hooks-settings-merge-safe,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+55efeb7f20a2,2026-03-28T19:58:04-04:00,Merge pull request #987 from dagecko/runner-guard/fix-ci-security,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1e7c29970601,2026-03-28T19:57:22-04:00,Merge pull request #972 from Lidang-Jiang/fix/observer-windows-temp-files,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+47aa415b06f3,2026-03-28T19:55:28-04:00,fix(installer): validate hooks and settings before install,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d7e6bb242aed,2026-03-27T07:59:19-04:00,fix(installer): reject invalid claude settings roots,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9f37a5d8c76f,2026-03-27T07:52:03-04:00,fix(installer): preserve existing claude hook settings,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d9ec51c9e959,2026-03-28T19:49:35-04:00,Merge pull request #932 from KT-lcz/readme,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9033f2a99773,2026-03-28T19:46:45-04:00,Merge pull request #970 from seancheick/codex/context7-consistency,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+67660540ac94,2026-03-28T19:45:44-04:00,docs: use directory-level rule copy examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+432788d0b575,2026-03-27T13:53:17-04:00,fix: clean up legacy Context7 aliases on update,Sean Cheick Baradji,TREE_OF_THOUGHT,,,0,0,0
+6a7a115e187d,2026-03-27T13:31:37-04:00,fix: normalize Codex Context7 naming,Sean Cheick Baradji,TREE_OF_THOUGHT,,,0,0,0
+1181d9349892,2026-03-28T19:42:50-04:00,Merge pull request #974 from Lidang-Jiang/fix/codex-sanity-check-persistent-instructions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+80d6a89f1247,2026-03-28T19:42:39-04:00,Merge pull request #971 from Lidang-Jiang/fix/codex-mcp-startup-timeout,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+28a1fbc3f2e1,2026-03-28T15:57:55-04:00,"fix: pin 6 actions to commit SHA, extract 1 expression to env var",dagecko,TREE_OF_THOUGHT,,,0,0,0
+4fcaaf8a89f2,2026-03-29T01:01:21+08:00,feat: add .trae directory with install/uninstall scripts,likzn,TREE_OF_THOUGHT,,,0,0,0
+7a4cb8c57030,2026-03-28T23:32:44+08:00,fix(observer): clean up prompt_file early and fix test for analysis_relpath,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+4b4f077d18a4,2026-03-28T11:00:28-04:00,fix(codex): allow indented persistent_instructions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+78c98dd4fdd6,2026-03-28T10:59:23-04:00,fix(codex): reuse shared MCP startup timeout constant,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f07797533d86,2026-03-28T09:13:18-04:00,Merge pull request #931 from KT-lcz/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+87d883eb1bc6,2026-03-28T09:12:38-04:00,Merge pull request #963 from affaan-m/fix/install-show-help-on-error,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+652f87c5b637,2026-03-27T07:49:30-04:00,fix(installer): tighten error help spacing,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+70b65a9d0684,2026-03-27T06:36:16-04:00,fix: tighten installer error spacing,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+24674a7bd620,2026-03-26T18:18:45+05:30,fix(installer): write error and help text to stderr for consistent stream output,Prabith Balagopalan,TREE_OF_THOUGHT,,,0,0,0
+d49c95a5ec65,2026-03-26T17:49:04+05:30,fix(installer): show help text on error and document --profile full in README,Prabith Balagopalan,TREE_OF_THOUGHT,,,0,0,0
+70a96bd3638b,2026-03-28T09:09:59-04:00,Merge pull request #977 from Lidang-Jiang/fix/cli-homedir-windows-fallback,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8f7445a260a5,2026-03-28T09:09:44-04:00,Merge pull request #976 from ymdvsymd/fix/ci-pnpm-yarn-compat-v2,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9ad4351f5314,2026-03-28T11:38:38+08:00,fix(codex): align context7-mcp package specifier with config.toml,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,1,1,1
+451732164fa9,2026-03-28T11:38:10+08:00,fix(observer): clean up temp files on cd failure early return,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,1,1,1
+ebd14cde7d35,2026-03-28T11:37:36+08:00,fix(codex): allow leading whitespace in persistent_instructions regex,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,1,1,1
+ae21a8df8547,2026-03-28T11:28:12+08:00,fix(scripts): add os.homedir() fallback for Windows compatibility,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,20,11,9
+d8e3b9d59346,2026-03-28T12:23:50+09:00,fix(ci): remove --ignore-engines for Yarn Berry (v4+),to.watanabe,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,4,3,2
+7148d9006f27,2026-03-28T12:21:00+09:00,fix(ci): enable Corepack for yarn and relax pnpm strict mode,to.watanabe,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,24,2,2
+c14765e701c6,2026-03-28T10:59:19+08:00,fix(codex): add persistent_instructions to baseline and relax sanity check,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,11,2,2
+194bc0000b88,2026-03-28T10:45:41+08:00,fix(observer): guard cd failure with early return and log message,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,1,1,1
+1e4447545856,2026-03-28T10:36:04+08:00,fix(codex): sync startup_timeout_sec into merge-mcp-config.js ECC_SERVERS,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,6,6,1
+31af1adcc842,2026-03-28T10:34:40+08:00,fix(observer): anchor CWD to PROJECT_DIR before Claude invocation,Lidang-Jiang,TREE_OF_THOUGHT,3af0bd3c-a766-40d2-9725-6e6b7534d95f,FEM,4,0,1
+c80631fc1d6e,2026-03-28T09:54:35+08:00,fix(observer): improve Windows compatibility for temp files and Haiku prompt,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+00f8628b8372,2026-03-28T09:52:17+08:00,fix(codex): add startup_timeout_sec to MCP servers to prevent first-run timeouts,Lidang-Jiang,TREE_OF_THOUGHT,,,0,0,0
+ba09a3443240,2026-03-27T07:57:07-04:00,docs: renumber ecc2 analysis recommendations,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+27e0d53f6df3,2026-03-27T06:35:21-04:00,docs: resolve ecc2 analysis review nits,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8b6140dedca3,2026-03-27T06:25:02-04:00,Merge pull request #956 from tae1344/fix/ajv-runtime-dependency,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7633386e04d9,2026-03-27T06:00:05-04:00,Merge pull request #878 from affaan-m/feat/install-catalog-project-config,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b4296c70959b,2026-03-24T03:53:45-07:00,feat: add install catalog and project config autodetection,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,496,6,11
+17f6f9509031,2026-03-27T16:44:11+09:00,fix(ck): address Greptile + CodeRabbit review bugs,Sreedhara GS,TREE_OF_THOUGHT,,,0,0,0
+1e226ba55690,2026-03-27T16:30:39+09:00,"feat(skill): ck — context-keeper v2, persistent per-project memory",Sreedhara GS,TREE_OF_THOUGHT,,,0,0,0
+cc60bf6b65cb,2026-03-27T02:47:13-04:00,Merge pull request #947 from chris-yyau/fix/shell-script-permissions,Affaan Mustafa,TREE_OF_THOUGHT,f01eaa1b-9547-4a04-82f1-a6d4ffb14952,TREE,0,0,0
+160624d0ed54,2026-03-27T02:46:42-04:00,Merge branch 'main' into fix/shell-script-permissions,Affaan Mustafa,TREE_OF_THOUGHT,f01eaa1b-9547-4a04-82f1-a6d4ffb14952,TREE,0,0,0
+73c10122fe43,2026-03-27T02:46:29-04:00,Merge pull request #938 from affaan-m/dependabot/npm_and_yarn/npm_and_yarn-3f9ee708be,Affaan Mustafa,TREE_OF_THOUGHT,f01eaa1b-9547-4a04-82f1-a6d4ffb14952,TREE,0,0,0
+9b24bedf856f,2026-03-27T04:02:44Z,"fix: address Greptile review — frontmatter, CI safety, null guards",Dr. Keyur Patel,TREE_OF_THOUGHT,,,0,0,0
+e3f2bda9fcdb,2026-03-27T03:54:20Z,fix: address all CodeRabbit + Cubic review comments on PR #955,Dr. Keyur Patel,TREE_OF_THOUGHT,,,0,0,0
+fe6a6fc10639,2026-03-27T12:18:44+09:00,fix: move ajv to dependencies and add .yarnrc.yml for node-modules linker,tae1344,TREE_OF_THOUGHT,,,0,0,0
+63737544a18a,2026-03-27T03:17:49Z,feat: add healthcare domain skills and agent,Dr. Keyur Patel,TREE_OF_THOUGHT,,,0,0,0
+dafc9bcd6049,2026-03-26T17:35:00-04:00,Update research/ecc2-codebase-analysis.md,Anurag Saxena,TREE_OF_THOUGHT,,,0,0,0
+2d0fddf174d3,2026-03-26T17:34:50-04:00,Update research/ecc2-codebase-analysis.md,Anurag Saxena,TREE_OF_THOUGHT,,,0,0,0
+f471f27658cd,2026-03-26T17:31:09-04:00,"fix: address CodeRabbit review — dependency versions, risk wording, style, security audit rec",anuragg-saxenaa,TREE_OF_THOUGHT,,,0,0,0
+925d830c53b1,2026-03-26T16:20:57Z,docs: add ECC2 codebase analysis research report,Toast (gastown),TREE_OF_THOUGHT,,,0,0,0
+2243f155812c,2026-03-26T22:14:51+08:00,fix: add execute permissions to codex sync shell scripts,Chris Yau,TREE_OF_THOUGHT,,,0,0,0
+6408511611d6,2026-03-26T12:04:05Z,chore(deps-dev): bump picomatch,dependabot[bot],TREE_OF_THOUGHT,,,0,0,0
+9348751b8eb6,2026-03-26T17:07:47+08:00,docs: fix rule installation examples,lichangze,TREE_OF_THOUGHT,112b6919-d52d-4bb4-82e1-121ead726a08,FEM,31,26,2
+c96c4d274285,2026-03-26T16:42:08+08:00,docs: clarify multi-model command setup,lichangze,TREE_OF_THOUGHT,112b6919-d52d-4bb4-82e1-121ead726a08,FEM,28,0,2
+da74f85c10c5,2026-03-26T04:37:08Z,fix: address review feedback from PR #929,xingzihai,TREE_OF_THOUGHT,112b6919-d52d-4bb4-82e1-121ead726a08,FEM,57,18,15
+c146fae2ceec,2026-03-26T02:28:02Z,docs: add comprehensive Skill Development Guide,xingzihai,TREE_OF_THOUGHT,112b6919-d52d-4bb4-82e1-121ead726a08,FEM,949,12,2
+3f5e042b40a9,2026-03-26T01:38:39Z,feat: add Chinese (zh-CN) translation for rules/common,xingzihai,TREE_OF_THOUGHT,112b6919-d52d-4bb4-82e1-121ead726a08,FEM,552,0,11
+b5148f184ae4,2026-03-26T00:59:46Z,feat(rules): add code-review.md rule to common rules,xingzihai,TREE_OF_THOUGHT,,,0,0,0
+b44ba7096ffb,2026-03-26T00:28:26Z,feat(hooks): add pre-commit quality check hook,xingzihai,TREE_OF_THOUGHT,,,0,0,0
+45baaa1ea5fa,2026-03-25T22:36:45+01:00,feat(skills): add laravel-plugin-discovery skill with LaraPlugins MCP,Daniel Petrica,TREE_OF_THOUGHT,,,0,0,0
+4da1fb388c29,2026-03-25T22:02:20+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+917c35bb6f46,2026-03-25T22:02:13+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+ee3f348dcb2e,2026-03-25T21:59:15+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+e6eb99271fb1,2026-03-25T21:58:59+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+7cabf77142ab,2026-03-25T21:58:51+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+9cfcfac665b2,2026-03-25T21:58:31+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+0284f6087192,2026-03-25T21:58:23+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+7a17ec9b1430,2026-03-25T21:58:09+01:00,Update skills/token-budget-advisor/SKILL.md,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+243fae8476f9,2026-03-25T20:07:35+01:00,Add token-budget-advisor skill,Xabilimon,TREE_OF_THOUGHT,,,0,0,0
+dc92b5c62b2a,2026-03-25T17:24:31Z,feat: Add performance-optimizer agent for code performance analysis and optimization,xingzihai,TREE_OF_THOUGHT,,,0,0,0
+3fbfd7f7ff91,2026-03-25T17:05:02Z,feat: Add git-workflow skill,xingzihai,TREE_OF_THOUGHT,,,0,0,0
+a6a81490f64a,2026-03-25T23:30:54+09:00,revert(ja-JP): keep commit message examples in English in CONTRIBUTING.md,Hirokazu Tanaka,TREE_OF_THOUGHT,,,0,0,0
+d170cdd1750c,2026-03-25T21:33:45+08:00,fix: remove redundant skill copy from sync-ecc-to-codex.sh,Chris Yau,TREE_OF_THOUGHT,,,0,0,0
+57e9983c8873,2026-03-25T20:05:55+08:00,"fix: address review feedback — rename sections, pin install commit, fix frontmatter",海滨code,TREE_OF_THOUGHT,,,0,0,0
+d952a07c73db,2026-03-25T19:54:57+08:00,fix: populate SKILL.md with actual content,海滨code,TREE_OF_THOUGHT,,,0,0,0
+369f66297a3d,2026-03-25T19:54:01+08:00,fix: populate SKILL.md with actual content,海滨code,TREE_OF_THOUGHT,,,0,0,0
+9cc5d085e13b,2026-03-25T14:09:59+03:00,adjust: scope tdd checkpoints to active branch,Toni Doni,TREE_OF_THOUGHT,,,0,0,0
+678fb6f0d37e,2026-03-25T03:19:13-07:00,Merge pull request #846 from pythonstrup/feat/desktop-notify-hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+401e26a45a02,2026-03-25T03:04:43-07:00,Merge pull request #880 from affaan-m/dependabot/cargo/ecc2/cargo-3169503097,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+eb934afbb577,2026-03-25T03:01:12-07:00,Merge pull request #888 from affaan-m/feat/ecc2-risk-scoring,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8303970258d5,2026-03-24T03:39:53-07:00,feat(ecc2): add tool risk scoring and actions,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,282,26,3
+319f9efafb2d,2026-03-25T02:51:20-07:00,Merge pull request #887 from affaan-m/feat/ecc2-tool-logging,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6c2a3a2baeaa,2026-03-24T03:39:53-07:00,feat(ecc2): add tool call logging and history,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,335,19,4
+adaeab9dba38,2026-03-25T02:46:08-07:00,Merge pull request #886 from affaan-m/feat/ecc2-split-pane,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8981dd60672e,2026-03-24T03:39:53-07:00,feat(ecc2): add split-pane dashboard resizing,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,312,59,4
+7229e09df1bd,2026-03-25T17:11:47+08:00,feat(skills): add repo-scan skill,海滨code,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,0,0,1
+4105a2f36c41,2026-03-25T01:37:35-07:00,Merge pull request #885 from affaan-m/feat/ecc2-crash-resume,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,0,0,0
+0166231ddbe5,2026-03-24T03:39:53-07:00,feat(ecc2): add crash resume session recovery,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,229,2,5
+cf439dd481d6,2026-03-25T01:31:53-07:00,Merge pull request #882 from affaan-m/feat/ecc2-live-streaming,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,0,0,0
+9903ae528b4d,2026-03-25T04:24:19-04:00,fix: restore antigravity install target metadata,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,1,0,1
+44c2bf6f7bb2,2026-03-23T03:46:19-07:00,feat(ecc2): implement live output streaming per agent (#774),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1019,204,7
+e78c09249975,2026-03-23T14:29:21-07:00,fix(ci): restore validation and antigravity target safety,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,1,1
+61f70de479b0,2026-03-25T01:16:28-07:00,Merge pull request #903 from affaan-m/fix/session-manager-843-supersede-853,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,0,0,0
+776ac439f33d,2026-03-25T04:01:23-04:00,test: cover canonical session duplicate precedence,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,34,0,1
+b19b4c6b5ea4,2026-03-25T04:00:50-04:00,fix: finish blocker lane hook and install regressions,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,188,45,10
+b5157f4ed1ee,2026-03-25T03:56:10-04:00,test: relax sync-ecc shell parsing,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,3,5,1
+2d1e384eefac,2026-03-25T03:51:15-04:00,test: isolate suggest-compact counter fixtures,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,97,72,1
+9c5ca92e6e85,2026-03-25T03:44:03-04:00,fix: finish hook fallback and canonical session follow-ups,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,108,28,9
+7b510c886e40,2026-03-25T03:36:36-04:00,fix: harden session hook guards and session ID handling,Affaan Mustafa,TREE_OF_THOUGHT,1de5d7d6-2673-45b1-a859-dd810408390b,FEM,96,36,8
+c1b47ac9db88,2026-03-25T00:18:05-07:00,Merge pull request #883 from affaan-m/feat/ecc2-status-panel,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+3f02fa439abe,2026-03-23T03:46:23-07:00,feat(ecc2): implement agent status panel with Table widget (#773),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,424,61,2
+f6b10481f3d4,2026-03-24T10:55:15+09:00,fix: add spawnSync error logging and restore 5s timeout,Jonghyeok Park,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,5,2,2
+d3699f901090,2026-03-24T10:36:00+09:00,fix: use AppleScript-safe escaping and reduce spawnSync timeout,Jonghyeok Park,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6,3,1
+445ae5099d5d,2026-03-24T10:17:42+09:00,feat: add macOS desktop notification Stop hook,Jonghyeok Park,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,101,0,3
+00bc7f30beb9,2026-03-25T01:34:29-04:00,fix: resolve blocker PR validation regressions,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,4,3
+1d0aa5ac2ab1,2026-03-24T23:08:27-04:00,fix: fold session manager blockers into one candidate,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1127,289,30
+7f7e319d9fb9,2026-03-24T19:53:59-07:00,Merge pull request #884 from affaan-m/feat/ecc2-token-meter,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+d7bcc92007f6,2026-03-23T03:46:25-07:00,feat(ecc2): add token/cost meter widget (#775),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,577,42,6
+e883385ab089,2026-03-25T02:45:34Z,chore(deps): bump git2 in /ecc2 in the cargo group across 1 directory,dependabot[bot],TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,5,5,2
+e7d827548ca4,2026-03-24T19:44:28-07:00,Merge pull request #881 from affaan-m/feat/ecc2-session-lifecycle,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+bf7ed1fce20e,2026-03-25T08:20:14+09:00,docs(ja-JP): translate plain text code blocks to Japanese,Hirokazu Tanaka,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,268,268,24
+fee93f2dabbb,2026-03-25T02:19:09+03:00,Apply suggestions from code review,ToniDonDoni,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,1,1
+a61947bb5c10,2026-03-25T02:14:39+03:00,adjust: generalize refactor commit placeholder,Toni Doni,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+3c59d8dc60ce,2026-03-25T02:10:01+03:00,adjust: clarify runtime vs compile-time red validation,Toni Doni,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,9,6,1
+46f6e3644b81,2026-03-25T02:07:53+03:00,Apply suggestions from code review,ToniDonDoni,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,4,1
+39a34e46db6a,2026-03-25T01:42:45+03:00,docs: tighten tdd workflow red-green validation,Toni Doni,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,45,0,1
+95a1435f6140,2026-03-24T15:43:59-05:00,Update skills/agent-payment-x402/SKILL.md,AI Agent Economy,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,1,1
+e57ad5c33d52,2026-03-24T15:25:14-05:00,fix: address all automated review feedback on code example,up2itnow0822,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,110,18,1
+f7d589ce2146,2026-03-24T12:24:25-05:00,feat: add agent-payment-x402 skill for autonomous agent payments,up2itnow0822,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,83,0,1
+2787b8e92f84,2026-03-23T03:46:17-07:00,feat(ecc2): implement session create/destroy lifecycle (#764),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,686,52,6
+2166d80d58c9,2026-03-24T03:54:54-07:00,Merge pull request #762 from affaan-m/feat/ecc2-tui-scaffold,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+67306c22cd03,2026-03-24T03:50:46-07:00,test: align antigravity manifest expectations,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,16,9,2
+b2407ab3f586,2026-03-24T03:39:29-07:00,fix(ecc2): sync catalog counts for scaffold CI,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,3,3,2
+00dce30d3bfb,2026-03-22T15:48:19-07:00,feat: scaffold ECC 2.0 Rust TUI — agentic IDE control plane,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,3091,0,16
+9c381b4469f1,2026-03-24T16:38:40+09:00,fix: move ajv to dependencies and auto-install deps in install scripts,Seunghyun Woo,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,16,1,3
+e3510f62a8c5,2026-03-24T13:46:05+08:00,docs(zh-CN): fix missing newline before origin in prompt-optimizer skill,crispyrice,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,1,1
+1d0f64a14d3e,2026-03-24T11:14:49+08:00,feat(skills): add openclaw-persona-forge skill,李奇泽,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,987,0,9
+7726c25e4625,2026-03-23T14:29:21-07:00,fix(ci): restore validation and antigravity target safety,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,11,5,5
+df4f2df29784,2026-03-23T04:31:10-07:00,"feat: add 6 gap-closing skills — browser QA, design system, product lens, canary watch, benchmark, safety guard",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,485,0,6
+6af7ca1afc34,2026-03-23T13:58:44+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,5,0,1
+d6061cf93702,2026-03-23T13:58:34+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,1,1
+ec921e52024d,2026-03-23T13:54:04+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+d016e68ceeab,2026-03-23T13:53:57+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+aed18eb57103,2026-03-23T13:53:48+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,2,1
+f3cf808814da,2026-03-23T13:53:35+08:00,Update docs/zh-CN/commands/prune.md,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+e22cb57718e0,2026-03-23T13:41:59+08:00,docs(zh-CN): add prune command translation,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,31,391,2
+bacc585b877b,2026-03-22T21:55:47-07:00,"Add Kiro steering files, hooks, and scripts (#812)",Himanshu Sharma,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1241,0,29
+535120d6b17d,2026-03-22T21:55:45-07:00,Add Kiro skills (18 SKILL.md files) (#811),Himanshu Sharma,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6785,0,18
+bf4a22f082ef,2026-03-22T21:55:43-07:00,Add Kiro agents (16 JSON + 16 MD) (#810),Himanshu Sharma,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2131,0,32
+2c23ff54d19f,2026-03-22T21:55:40-07:00,"Add Kiro base structure, install script, and docs (#809)",Himanshu Sharma,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1953,0,6
+a411da912240,2026-03-23T00:55:38-04:00,fix(commands): replace py_compile with compileall in build-fix (#804),Charlie Tonneslan,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+264396a61697,2026-03-22T21:54:38-07:00,fix: add antigravity to platform-configs targets,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,0,1
+a2e465c74dfb,2026-03-23T13:51:49+09:00,feat(skills): add skill-comply — automated behavioral compliance measurement (#724),Shimo,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1418,4,23
+4811e8c73beb,2026-03-23T11:48:31+08:00,docs(zh-CN): add prune command translation,cjp,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,391,0,1
+0f22cb445008,2026-03-22T15:50:32-07:00,docs: add ECC 2.0 reference architecture from competitor research,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,54,0,1
+6f13b057af91,2026-03-22T15:41:04-07:00,feat(skills): add santa-method - multi-agent adversarial verification (#760),Pixiu Media holdings,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,306,0,1
+0e733753e03a,2026-03-23T06:40:58+08:00,feat: pending instinct TTL pruning and /prune command (#725),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,398,83,5
+4f5665c7f044,2026-03-22T22:40:55Z,feat: add click-path-audit skill — finds state interaction bugs (#729),massimotodaro,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,244,0,1
+83d3279fd8bd,2026-03-23T07:40:53+09:00,feat(skills): add Kysely migration patterns to database-migrations (#731),JongHyeok Park,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,95,1,1
+0c7deb26a344,2026-03-22T18:39:56-04:00,perf(hooks): move post-edit-format and post-edit-typecheck to strict-only (#757),Charlie Tonneslan,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,4,2
+fdb10ba11624,2026-03-22T18:39:54-04:00,feat(hooks): add config protection hook to block linter config manipulation (#758),Charlie Tonneslan,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,136,0,2
+401dca07d0bd,2026-03-23T04:09:51+05:30,feat(session): add worker health alongside state in ecc.session.v1 (#751),Neha Prasad,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,79,6,3
+4df960c9d5b5,2026-03-23T04:09:48+05:30,feat: define skill placement and provenance policy (#748),Neha Prasad,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,148,6,6
+09efd682284f,2026-03-23T06:39:46+08:00,fix: safe Codex config sync — merge AGENTS.md + add-only MCP servers (#723),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,382,76,6
+4e6b5cc19fb0,2026-03-23T06:39:27+08:00,"fix(install): add rust, cpp, csharp to legacy language alias map (#747)",Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,50,0,3
+4f6f587700ef,2026-03-23T06:39:24+08:00,docs(zh-CN): translate code block(plain text) (#753),zdoc.app,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1848,1876,118
+fd2a8edb5343,2026-03-23T01:37:04+03:00,Add Turkish (tr) docs and update README (#744),Berkcan Gümüşışık,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,26670,2,139
+bb1efad7c797,2026-03-22T15:36:24-07:00,fix: bump plugin.json and marketplace.json to v1.9.0,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,2,2
+57fa3b56c084,2026-03-22T06:47:18-07:00,Merge pull request #736 from pvgomes/docs/add-brazilian-portuguese-translation,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+c3769b5c1348,2026-03-22T09:31:32+01:00,Update docs/pt-BR/commands/eval.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,1,1
+d54b57e77d62,2026-03-22T09:21:11+01:00,Update docs/pt-BR/commands/plan.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,1,1
+82e842ad69d5,2026-03-22T09:20:46+01:00,Update docs/pt-BR/commands/orchestrate.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6,7,1
+408a2080869f,2026-03-22T09:18:26+01:00,fix security reviewer and refactor doc,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,51,17,3
+bb1c625b3072,2026-03-22T09:05:13+01:00,Update docs/pt-BR/agents/go-build-resolver.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,1
+900c9836fb8f,2026-03-21T19:48:20-07:00,docs: restore zenith.chat and @DRodriguezFX in Background (own project),Affaan Mustafa,TREE_OF_THOUGHT,6fe47ff7-23ec-4b91-a81b-bf077aedaab1,TREE,1,1,1
+6b2de1baff92,2026-03-21T18:09:52-07:00,"security: remove supply chain risks, external promotions, and unauthorized credits",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,12,30,8
+f55dc5043532,2026-03-21T21:19:26+01:00,Update docs/pt-BR/commands/go-review.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,5,6,1
+dae25a15b3b1,2026-03-21T21:19:02+01:00,Update docs/pt-BR/commands/eval.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,10,10,1
+4dafacaa8bf9,2026-03-21T21:18:38+01:00,Update docs/pt-BR/commands/plan.md,Paulo Victor Leite Lima Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,5,1
+9b24173867a6,2026-03-21T14:09:27+01:00,docs(readme): add pt-BR language link,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,3,3,1
+91dcb31886ad,2026-03-21T14:06:49+01:00,docs(pt-BR): add rules translation,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,296,0,8
+be6d7f314af5,2026-03-21T14:06:49+01:00,docs(pt-BR): add examples translation,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1235,0,6
+1ef8bc1e72a3,2026-03-21T14:06:49+01:00,docs(pt-BR): add commands translation,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2448,0,18
+5fb3bca5fdc3,2026-03-21T14:06:49+01:00,docs(pt-BR): add agents translation,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1011,0,12
+29c0434eb300,2026-03-21T14:06:49+01:00,docs(pt-BR): add core docs translation,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,528,0,2
+019546523445,2026-03-21T14:01:15+01:00,basic README,Paulo Victor Gomes,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,509,0,1
+0d2828cc00c6,2026-03-21T03:02:14-07:00,Merge pull request #728 from zdocapp/zh-CN-pr,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+c1847bec5da8,2026-03-20T22:57:50-07:00,docs: publish The Shorthand Guide to Everything Agentic Security,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,369,121,8
+4b01c8eef545,2026-03-21T13:21:55+08:00,fix(zh-CN): update image path,neo,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,3,3,1
+e73c2ffa343f,2026-03-21T12:55:58+08:00,docs(zh-CN): sync Chinese docs with latest upstream changes,neo,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,11027,746,85
+0af0fbf40b4b,2026-03-20T20:40:13-07:00,docs: update guide screenshots with current engagement stats,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,2,2,3
+af30ae63c513,2026-03-20T20:34:03-07:00,docs: add security guide header image to README,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1,1,2
+fc4e5d654bcc,2026-03-20T20:24:56-07:00,"docs: add SECURITY.md, publish agentic security guide, remove openclaw guide",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,188,986,7
+7ccfda9e25f0,2026-03-20T07:30:52-07:00,fix: skip flaky observer shell test on Windows (#722),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,0,1
+2643e0c72fe8,2026-03-20T07:11:16-07:00,"fix: update catalog counts for flutter-reviewer (28 agents, 116 skills)",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6,6,2
+1975a576c5cc,2026-03-20T14:40:28+01:00,feat(agents): add flutter-reviewer agent and skill (#716),Maciej,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,678,0,2
+f563fe2a3b42,2026-03-20T21:38:32+08:00,fix: codex sync merges AGENTS.md instead of replacing it (#715),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,61,9,1
+e8495aa3fc38,2026-03-20T05:56:21-07:00,feat: add MCP health-check hook (#711),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,920,0,4
+35071150b7ba,2026-03-20T05:42:32-07:00,fix: sanitize SessionStart session summaries (#710),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,32,3,2
+40f18885b19d,2026-03-20T05:20:23-07:00,feat(rules): add C# language support (#704),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1656,66,20
+b77f49569b58,2026-03-20T04:44:31-07:00,feat: add nuxt 4 patterns skill (#702),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,104,4,3
+bea68549c5f9,2026-03-20T03:53:22-07:00,feat: agent description compression with lazy loading (#696),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,272,280,2
+b981c765ae27,2026-03-20T03:38:36-07:00,fix: stabilize windows project metadata assertions,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,40,7,1
+b61f54944439,2026-03-20T18:37:21+08:00,fix(tests): resolve Windows CI test failures (#701),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,159,122,4
+162236f46366,2026-03-20T03:29:45-07:00,fix: normalize bash metadata paths on windows,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,27,5,1
+04ad4737de61,2026-03-20T03:23:37-07:00,fix: stabilize windows hook tests,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,34,4,2
+8ebb47bdd171,2026-03-20T03:15:05-07:00,fix: normalize windows bash test harness,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,20,5,2
+e70c43bcd484,2026-03-20T03:03:57-07:00,fix: harden windows CI tests and markdown lint,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,51,20,6
+cbccb7fdc0b4,2026-03-20T02:44:25-07:00,fix: strip validator shebangs on Windows CRLF checkouts,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,13,4,1
+a2df9397ff34,2026-03-20T02:11:12-07:00,fix: resolve ESLint errors and add npx command support in hook tests,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6,5,3
+47f508ec2166,2026-03-20T01:58:19-07:00,"Revert ""Add Kiro IDE support (.kiro/) (#548)""",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,12110,85
+ce828c1c3cad,2026-03-20T01:50:35-07:00,Add Kiro IDE support (.kiro/) (#548),Himanshu Sharma,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,12110,0,85
+c8f631b0466e,2026-03-20T15:50:31+07:00,feat: add block-no-verify hook for Claude Code and Cursor (#649),Ofek Gabay,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,15,0,2
+8511d8404220,2026-03-20T01:44:55-07:00,feat(skills): add rules-distill skill (rebased #561) (#678),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,468,6,6
+8a5789439429,2026-03-20T01:42:19-07:00,chore(deps-dev): bump flatted (#675),dependabot[bot],TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,3,3,1
+68484da2fc44,2026-03-20T01:38:15-07:00,fix: auto-detect ECC root from plugin cache when CLAUDE_PLUGIN_ROOT is unset (#547) (#691),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,352,13,4
+0b0b66c02fa1,2026-03-20T01:38:13-07:00,"feat: agent compression, inspection logic, governance hooks (#491, #485, #482) (#688)",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,1563,0,7
+28de7cc420ff,2026-03-20T01:38:11-07:00,fix: strip ANSI escape codes from session persistence hooks (#642) (#684),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,87,3,4
+9a478ad67605,2026-03-20T01:19:42-07:00,feat(rules): add Rust language rules (rebased #660) (#686),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,630,0,5
+52e949a85bfa,2026-03-20T01:19:36-07:00,"fix: sync catalog counts with filesystem (27 agents, 113 skills, 58 commands) (#693)",Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,6,6,2
+07f6156d8a11,2026-03-20T00:43:32-07:00,feat: implement --with/--without selective install flags (#679),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,876,2,4
+29277ac273f2,2026-03-20T00:29:20-07:00,chore: prepare v1.9.0 release (#666),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,139,11,7
+6836e9875d16,2026-03-20T00:29:17-07:00,fix: resolve Windows CI failures and markdown lint (#667),Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,32,44,2
+cfb3370df8c0,2026-03-20T12:51:37+05:30,docs: add Antigravity setup and usage guide (#552),vazidmansuri005,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,157,1,2
+d697f2ebac97,2026-03-20T12:50:25+05:30,feat(skills): add architecture-decision-records skill (#555),vazidmansuri005,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,179,0,1
+0efd6ed9141e,2026-03-20T12:50:23+05:30,feat(commands): add /context-budget optimizer command (#554),vazidmansuri005,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,164,0,2
+72c013d212ef,2026-03-20T12:50:20+05:30,feat(skills): add codebase-onboarding skill (#553),vazidmansuri005,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,233,0,1
+27234fb79037,2026-03-20T07:20:18Z,feat(skills): add agent-eval for head-to-head coding agent comparison (#540),Joaquin Hui,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,148,0,1
+a6bd90713dc0,2026-03-20T00:16:42-07:00,Merge pull request #664 from ymdvsymd/fix/observer-sandbox-access-661,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+9c58d1edb539,2026-03-20T00:16:34-07:00,Merge pull request #665 from ymdvsymd/fix/worktree-project-id-mismatch,Affaan Mustafa,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,0,0,0
+04f867562494,2026-03-20T16:02:10+09:00,fix(clv2): use -e instead of -d for .git check in detect-project.sh,to.watanabe,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,240,1,2
+f37c92cfe256,2026-03-20T16:00:17+09:00,fix(clv2): add --allowedTools to observer Haiku invocation (#661),to.watanabe,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,73,90,2
+fec871e1cbec,2026-03-19T22:47:46-07:00,fix: update catalog counts and resolve lint error,Affaan Mustafa,TREE_OF_THOUGHT,65737a49-6947-4810-91d1-6ef859f795b3,FEM,6,6,3
+1b21e082fa9f,2026-03-20T08:49:34+05:00,feat(skills): add pytorch-patterns skill (#550),Muhammad Idrees,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,396,0,1
+beb11f8d0259,2026-03-20T08:49:32+05:00,feat(agents): add pytorch-build-resolver agent (#549),Muhammad Idrees,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,120,0,1
+90c3486e0354,2026-03-20T11:49:23+08:00,feat(agents): add typescript-reviewer agent (#647),teee32,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,133,6,4
+9ceb699e9a92,2026-03-20T11:49:21+08:00,feat(rules): add Java language rules (#645),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,509,0,5
+a9edf54d2f52,2026-03-20T11:49:15+08:00,fix(observe): allow sdk-ts entrypoint in observation hook (#614),Chris Yau,TREE_OF_THOUGHT,0091baab-1691-4945-94d1-02a2ab7691fa,FEM,4,1,1
+4bdbf57d981f,2026-03-18T03:03:31-07:00,"fix: resolve 8 test failures on main (install pipeline, orchestrator, repair) (#564)",Affaan Mustafa,TREE_OF_THOUGHT,818f29eb-1aa3-497f-9c3e-0b5dde0c50b9,TREE,9,2,1
+fce4513d58dc,2026-03-17T00:42:09-07:00,"fix: sync documentation counts with catalog (25 agents, 108 skills, 57 commands)",Affaan Mustafa,TREE_OF_THOUGHT,818f29eb-1aa3-497f-9c3e-0b5dde0c50b9,TREE,7,7,2
+7cf07cac1798,2026-03-17T03:02:25+05:30,feat(agents): add java-build-resolver for Maven/Gradle (#538),Yashwardhan,TREE_OF_THOUGHT,,,0,0,0
+b6595974c2e8,2026-03-16T14:31:49-07:00,feat: add C++ language support and hook tests (#539),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f12bb90924b3,2026-03-16T14:29:28-07:00,fix: refresh orchestration follow-up after #414 (#430),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f0b394a151ff,2026-03-16T14:04:41-07:00,"merge: PR #529 — feat(skills): add documentation-lookup, bun-runtime, nextjs-turbopack; feat(agents): add rust-reviewer",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+01585ab8a347,2026-03-17T00:55:11+05:30,"Address review: register rust-reviewer in AGENTS.md and rules, add openai.yaml for Codex skills",Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+0be6455fca4c,2026-03-17T00:40:45+05:30,"fix: address PR review — skill template (When to use, How it works, Examples), bun.lock, next build note, rust-reviewer CI note, doc-lookup privacy/uncertainty",Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+f03db8278c3e,2026-03-17T00:29:22+05:30,docs(skills): align documentation-lookup with CONTRIBUTING template; add cross-harness (Codex/Cursor) skill copies,Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+93a78f184706,2026-03-17T00:24:13+05:30,"feat(skills): add documentation-lookup, bun-runtime, nextjs-turbopack; feat(agents): add rust-reviewer",Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+5bd183f4a76e,2026-03-17T08:02:40+11:00,feat: add Codex CLI customization scripts (#336),Tom Green,TREE_OF_THOUGHT,,,0,0,0
+89044e8c3396,2026-03-17T02:31:41+05:30,feat(design): skill health dashboard mockup (#518),Aryan Tejani,TREE_OF_THOUGHT,,,0,0,0
+10879da823bb,2026-03-17T02:31:38+05:30,feat(agents): add java-reviewer agent (#528),Yashwardhan,TREE_OF_THOUGHT,,,0,0,0
+609a0f4fd13d,2026-03-16T13:50:08-07:00,fix: add 62 missing skills to install manifests — full profile now covers all 105 skills (#537),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f9e8287346be,2026-03-16T13:47:25-07:00,"fix: observer memory explosion with throttling, re-entrancy guard, and tail sampling (#536)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bb27dde11690,2026-03-16T20:40:56Z,docs: add npm install step before running install.sh (#526),Jeffrey Jordan,TREE_OF_THOUGHT,,,0,0,0
+3b2e1745e9cc,2026-03-17T00:39:03+04:00,chore(config): governance and config foundation (#292),alfraido86-jpg,TREE_OF_THOUGHT,,,0,0,0
+9fcbe9751cd6,2026-03-17T04:38:47+08:00,fix: export run() to avoid Windows spawnSync issues (#431),yang1002378395-cmyk,TREE_OF_THOUGHT,,,0,0,0
+b57b573085ed,2026-03-16T16:38:20-04:00,fix(continuous-learning-v2): add lazy-start observer logic (#508),Albert Lie 이영덕,TREE_OF_THOUGHT,,,0,0,0
+01ed1b3b0306,2026-03-16T20:37:51Z,fix(ci): enforce catalog count integrity (#525),Justin Philpott,TREE_OF_THOUGHT,,,0,0,0
+ac53fbcd0ec4,2026-03-16T20:35:50Z,Add Claude DevFleet multi-agent orchestration skill (#505),Avdhesh Singh Chouhan,TREE_OF_THOUGHT,,,0,0,0
+e4cb5a14b3c4,2026-03-17T02:05:44+05:30,feat(skill): add data-scraper-agent — AI-powered public data collection for any source (#503),Robin Singh,TREE_OF_THOUGHT,,,0,0,0
+8676d3af1d5d,2026-03-17T05:35:38+09:00,feat(skills): add team-builder skill (#501),Sebastien Tang,TREE_OF_THOUGHT,,,0,0,0
+c2f2f9517cff,2026-03-17T05:35:31+09:00,feat: add ai-regression-testing skill (#433),k-matsuda-linkus,TREE_OF_THOUGHT,,,0,0,0
+113119dc6f35,2026-03-16T20:35:23Z,feat: add laravel skills (#420),Sam Rook,TREE_OF_THOUGHT,,,0,0,0
+17a6ef4edbd5,2026-03-16T21:35:17+01:00,Add PowerShell installer wrapper and update documentation (#532),Fredrik Hallerös,TREE_OF_THOUGHT,,,0,0,0
+cd82517b90ef,2026-03-17T02:05:11+05:30,feat(skills): add mcp-server-patterns (#531),Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+888132263dd7,2026-03-17T02:05:05+05:30,feat(commands): add /docs; feat(mcp-configs): document Context7 (#530),Carson Rodrigues,TREE_OF_THOUGHT,,,0,0,0
+0ff1b594d078,2026-03-17T02:04:30+05:30,fix(harness-audit): make scoring deterministic with scripted rubric (#524),Chandan Semwal,TREE_OF_THOUGHT,,,0,0,0
+ebd8c8c6fa26,2026-03-16T17:34:25-03:00,feat(agents): add Rust language support (#523),Ronaldo Martins,TREE_OF_THOUGHT,,,0,0,0
+b48930974b7b,2026-03-16T01:59:53-07:00,fix: resolve all CI test failures (19 fixes across 6 files) (#519),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+426fc5445637,2026-03-16T01:35:45-07:00,feat: record canonical session snapshots via adapters (#511),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bae112920987,2026-03-16T01:32:21-07:00,feat: add SQLite state store and query CLI (#510),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d5371d28aa99,2026-03-15T21:47:39-07:00,feat: add skill evolution foundation (#514),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+131f97784127,2026-03-15T21:47:31-07:00,feat: strengthen install lifecycle and target adapters (#512),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1e0238de9641,2026-03-15T21:47:22-07:00,feat: wire manifest resolution into install execution (#509),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8878c6d6b023,2026-03-15T21:47:15-07:00,fix: harden observer hooks and test discovery (#513),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c53bba9e02a6,2026-03-14T23:21:18-07:00,"feat: self-improving skills loop — observe, inspect, amend, evaluate",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2b2777915e40,2026-03-14T19:09:26-07:00,feat: expand session adapter registry with structured targets,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fcaf78e4495d,2026-03-14T12:55:56-07:00,"merge: dmux worktree (selective install, orchestration, observer fixes)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4e028bd2d20c,2026-03-14T12:55:25-07:00,"feat: orchestration harness, selective install, observer improvements",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fdea3085a76c,2026-03-13T06:05:52-07:00,Merge pull request #428 from zdocapp/zh-CN-pr,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4c0107a322f9,2026-03-13T17:45:44+08:00,docs(zh-CN): update,neo,TREE_OF_THOUGHT,,,0,0,0
+f548ca3e1967,2026-03-13T02:14:40-07:00,Merge pull request #427 from affaan-m/codex/orchestration-harness-skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5e481879ca03,2026-03-13T01:16:45-07:00,fix: harden observe loop prevention,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cc9b11d1634b,2026-03-13T00:23:44-07:00,Merge pull request #392 from hahmee/docs/add-korean-translation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bfc802204ef6,2026-03-13T00:17:56-07:00,Merge pull request #403 from swarnika-cmd/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fb7b73a96292,2026-03-13T00:17:54-07:00,docs: address Korean translation review feedback,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4de5da2f8fea,2026-03-13T00:01:06-07:00,Merge pull request #309 from cookiee339/feat/kotlin-ecosystem,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1c1a9ef73ec0,2026-03-13T00:00:34-07:00,Merge branch 'main' into main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e043a2824ab7,2026-03-12T23:59:01-07:00,fix: harden observer prompt guard handling,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3010f75297b4,2026-03-12T23:55:59-07:00,Merge pull request #409 from pangerlkr/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+99d443b16e1f,2026-03-12T23:53:23-07:00,fix: align kotlin diagnostics and heading hierarchy,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bc21e7adbadc,2026-03-13T12:22:46+05:30,feat: add /aside command (#407),avesh-h,TREE_OF_THOUGHT,,,0,0,0
+240d553443b3,2026-03-12T23:52:10-07:00,Merge branch 'main' into main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e692a2886cb0,2026-03-12T23:47:17-07:00,fix: address kotlin doc review feedback,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a6f380fde0aa,2026-03-13T02:44:34-04:00,feat: active hours + idle detection gates for session-guardian (#413),ispaydeu,TREE_OF_THOUGHT,,,0,0,0
+c52a28ace9e7,2026-03-13T02:40:03-04:00,fix(observe): 5-layer automated session guard to prevent self-loop observations (#399),ispaydeu,TREE_OF_THOUGHT,,,0,0,0
+83f6d5679c11,2026-03-13T07:40:02+01:00,feat(skills): add prompt-optimizer skill and /prompt-optimize command (#418),Jinyi_Yang,TREE_OF_THOUGHT,,,0,0,0
+c5acb5ac32a6,2026-03-12T23:29:50-07:00,fix: accept shorter mixed-case session IDs (#408),Frank,TREE_OF_THOUGHT,,,0,0,0
+8ed2fb21b214,2026-03-12T15:49:51-07:00,Merge pull request #417 from affaan-m/codex/orchestration-harness-skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d994e0503b84,2026-03-12T15:46:50-07:00,test: fix cross-platform orchestration regressions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2d43541f0e6d,2026-03-12T15:40:25-07:00,fix: preserve orchestration launcher compatibility,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c5b8a0783e2e,2026-03-12T15:35:12-07:00,fix: resolve lint regression in plan parsing,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+af318b8f04f0,2026-03-12T15:34:05-07:00,fix: address remaining orchestration review comments,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0d96876505e4,2026-03-12T15:11:57-07:00,chore: resolve audit findings in lint tooling,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+52daf17cb515,2026-03-12T15:07:57-07:00,fix: harden orchestration status and skill docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ca33419c52c8,2026-03-12T14:55:34-07:00,Merge pull request #419 from affaan-m/codex/fix-main-windows-root-identity,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ddab6f11900a,2026-03-12T14:51:14-07:00,fix: compare hook roots by file identity,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fe9f8772adcd,2026-03-12T14:51:14-07:00,fix: compare hook roots by file identity,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9359e46951d1,2026-03-12T10:20:42-07:00,fix: resolve exa skill markdown lint,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ad4ef58a8e1d,2026-03-12T09:35:03-07:00,fix: resolve orchestration lint errors,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4d4ba25d112a,2026-03-12T08:50:24-07:00,feat: add orchestration workflows and harness skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d3f4fd506137,2026-03-12T14:48:21-07:00,fix: restore mainline CI on Windows and markdown lint (#415),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+424f3b372995,2026-03-12T10:20:42-07:00,fix: resolve exa skill markdown lint,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bdf4befb3e58,2026-03-12T09:35:03-07:00,fix: resolve orchestration lint errors,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2349e2173110,2026-03-12T08:50:24-07:00,feat: add orchestration workflows and harness skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bfc73866c92b,2026-03-12T09:26:12-07:00,"Revert ""feat: add orchestration workflows and harness skills""",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cb43402d7d2e,2026-03-12T08:50:24-07:00,feat: add orchestration workflows and harness skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+51eec12764af,2026-03-12T07:53:59-07:00,fix: stop pinning o4-mini in codex config,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c1bff00d1f2e,2026-03-12T14:39:13+05:30,Merge pull request #16 from pangerlkr/copilot/fix-failing-checks,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+27b537d56824,2026-03-12T09:08:08Z,fix: skip detect-project bash test on Windows (path backslash incompatibility),copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2c726244ca34,2026-03-12T08:45:44Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2856b79591c9,2026-03-12T14:15:20+05:30,Merge pull request #15 from pangerlkr/copilot/fix-link-not-working,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+b0bc3dc0c9dc,2026-03-12T08:21:41Z,Fix markdownlint errors from merge of affaan-m:main into main,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+db89e7bcd098,2026-03-12T08:14:36Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+8627cd07e7f1,2026-03-12T11:40:41+05:30,Merge branch 'affaan-m:main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+96708e5d45f9,2026-03-12T06:52:54+05:30,fix: add confirmation-prompt guard to start-observer.sh (issue #400),swarnika-cmd,TREE_OF_THOUGHT,,,0,0,0
+8079d354d1e3,2026-03-12T06:46:42+05:30,fix: observer fails closed on confirmation/permission prompts (issue #400),swarnika-cmd,TREE_OF_THOUGHT,,,0,0,0
+da4db99c94cf,2026-03-11T01:51:41-07:00,fix: repair opencode config and project metadata,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dba4c462c468,2026-03-10T21:27:02-07:00,Merge pull request #301 from 0xrohitgarg/add-videodb-skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+135eb4c98d3a,2026-03-10T21:25:52-07:00,feat: add kotlin commands and skill pack,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+192d2b63f2d0,2026-03-10T21:23:25-07:00,docs: align videodb event directory handling,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+70449a1cd7e6,2026-03-10T21:22:35-07:00,docs: tighten videodb listener guidance,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+82f9f58d2803,2026-03-10T21:19:01-07:00,Merge pull request #290 from nocodemf/add-evos-operational-skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+16b33eecb177,2026-03-10T21:18:35-07:00,Merge pull request #389 from affaan-m/codex/add-php-rules,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+db2bf1642741,2026-03-10T21:18:33-07:00,docs: resolve videodb review findings,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+47a5d4b4590c,2026-03-10T21:13:55-07:00,docs: resolve remaining operational skill comments,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+062956311d5d,2026-03-10T21:13:31-07:00,Merge pull request #388 from affaan-m/codex/fix-383-custom-endpoint-docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2581bebfd94b,2026-03-10T21:11:00-07:00,docs: resolve videodb follow-up review comments,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ed366bddbb9b,2026-03-10T21:10:26-07:00,feat: add php rule pack,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6c8f425ae296,2026-03-10T21:07:36-07:00,docs: resolve operational skill review issues,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e0f8f914eef6,2026-03-10T21:06:06-07:00,docs: clarify custom endpoint support,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b0c2e77bd897,2026-03-10T21:04:02-07:00,docs: clarify videodb reference guides,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b8ab34e362e4,2026-03-10T21:03:32-07:00,docs: harden videodb skill examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+22816651c2a2,2026-03-10T20:59:05-07:00,fix: normalize operational skill packaging,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+032644296909,2026-03-10T20:57:38-07:00,Merge pull request #387 from affaan-m/codex/fix-386-observer-max-turns,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+74336101055c,2026-03-10T20:50:34-07:00,docs: tighten kotlin support examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f6a470de6343,2026-03-07T19:40:47+01:00,fix: resolve semantic mismatch between UseCase naming and ViewModel usage,ali,TREE_OF_THOUGHT,,,0,0,0
+ab693f7b8a97,2026-03-07T19:31:59+01:00,fix: address remaining PR review comments for Kotlin/Android/KMP docs,ali,TREE_OF_THOUGHT,,,0,0,0
+2d5dc62ad017,2026-03-06T23:22:24+01:00, fix: rename GetItemsUseCase to GetItemUseCase for consistency,ali,TREE_OF_THOUGHT,,,0,0,0
+8961f2482117,2026-03-06T23:17:01+01:00,fix: address PR review comments for Kotlin/Android/KMP docs,ali,TREE_OF_THOUGHT,,,0,0,0
+f10d638bfa3a,2026-03-06T23:01:39+01:00,"feat: add Kotlin, Android, and KMP rules, agent, skills, and command",ali,TREE_OF_THOUGHT,,,0,0,0
+16bc7436c5fa,2026-03-10T20:52:53-07:00,fix: raise observer analysis turn budget,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2b8eca3ae970,2026-03-10T20:51:09-07:00,Merge pull request #370 from Nomadu27/feat/insaits-security-hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5a5d647825f1,2026-03-10T20:48:59-07:00,Merge origin/main into feat/insaits-security-hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9c1e8dd1e41b,2026-03-10T20:47:09-07:00,fix: make insaits hook opt-in,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+034835073ce6,2026-03-10T20:43:09-07:00,Merge pull request #359 from pythonstrup/feat/optimize-biome-hooks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+78a56174b156,2026-03-10T20:22:23-07:00,docs: tighten perl support guidance,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+36bcf20588ab,2026-03-09T06:46:49+03:00,fix: address code review findings from cubic-dev-ai,Necip Sunmaz,TREE_OF_THOUGHT,,,0,0,0
+b2a7bae5db48,2026-03-09T06:24:50+03:00,"feat: add Perl skills (patterns, security, testing)",Necip Sunmaz,TREE_OF_THOUGHT,,,0,0,0
+ae5c9243c921,2026-03-09T06:20:26+03:00,feat: add Perl language rules and update documentation,Necip Sunmaz,TREE_OF_THOUGHT,,,0,0,0
+d239d873d887,2026-03-10T20:25:22-07:00,Merge remote-tracking branch 'origin/main' into feat/optimize-biome-hooks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8f87a5408ff2,2026-03-10T20:20:50-07:00,docs: align session commands with session manager,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b365ce861ad3,2026-03-09T21:41:17+05:30,docs: update session file path in save-session command documentation,avesh-h,TREE_OF_THOUGHT,,,0,0,0
+b39e25a58f24,2026-03-09T21:35:57+05:30,docs: update session file paths in save-session and resume-session commands,avesh-h,TREE_OF_THOUGHT,,,0,0,0
+81022fdcfe9b,2026-03-09T21:27:32+05:30,docs: clarify session file paths and usage in resume-session command,avesh-h,TREE_OF_THOUGHT,,,0,0,0
+e71024c4bd88,2026-03-09T13:23:50+05:30,docs: enhance session file naming guidelines in save-session command,avesh-devx,TREE_OF_THOUGHT,,,0,0,0
+043b3cd9a959,2026-03-09T13:12:36+05:30,fix: update session file paths to use the home directory,avesh-devx,TREE_OF_THOUGHT,,,0,0,0
+6937491d2a78,2026-03-09T12:30:40+05:30,feat: add resume and save session commands for session management,avesh-devx,TREE_OF_THOUGHT,,,0,0,0
+0c2954565dce,2026-03-10T20:08:20-07:00,docs: add skill-stocktake agent invocation example,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+02d754ba675f,2026-03-08T21:02:14+09:00,fix: use general-purpose agent instead of Explore for skill-stocktake evaluation,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+973be02aa6f6,2026-03-10T20:08:20-07:00,docs: clarify learn-eval verdict flow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5929db9b231e,2026-03-08T21:04:38+09:00,fix: resolve markdownlint MD001 heading level violation,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+32e11b8701d4,2026-03-08T19:35:28+09:00,feat(commands): improve learn-eval with checklist-based holistic verdict,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+4fa817cd7d5b,2026-03-10T20:13:05-07:00,ci: install validation deps for hook checks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b0a6847007c2,2026-03-10T19:34:10-07:00,docs: align TypeScript error handling examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+327c2e97d8bd,2026-03-09T14:41:46-04:00,feat: enhance TypeScript coding style guidelines with detailed examples and best practices esp interfaces and types,Jason Davey,TREE_OF_THOUGHT,,,0,0,0
+770505191003,2026-03-10T19:31:02-07:00,fix: align architecture tooling with current hooks docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a50349181a19,2026-03-09T15:05:17-04:00,"feat: architecture improvements — test discovery, hooks schema, catalog, command map, coverage, cross-harness docs",kinshukdutta,TREE_OF_THOUGHT,,,0,0,0
+c883289abba9,2026-03-10T19:36:12-07:00,fix: curate everything-claude-code skill output,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+65cb240e8816,2026-03-07T14:48:04-08:00,feat: add everything-claude-code skill (#335),ecc-tools[bot],TREE_OF_THOUGHT,,,0,0,0
+77f38955b3bf,2026-03-10T19:22:37-07:00,fix: refresh codex config and docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7c82aebc76d6,2026-03-10T19:21:13-07:00,docs: tighten blueprint install guidance,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+205fa728094c,2026-03-10T19:14:33-07:00,docs: align blueprint skill with ECC install flow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+13fe21c5b7bd,2026-03-11T06:00:01+08:00,fix: add git fetch and use pinned checkout for update flow,ant,TREE_OF_THOUGHT,,,0,0,0
+f809bdd04933,2026-03-10T23:55:23+08:00,fix(skills): address review feedback on blueprint skill,ant,TREE_OF_THOUGHT,,,0,0,0
+678ee7dc32f4,2026-03-10T23:19:09+08:00,feat(skills): add blueprint skill for multi-session construction planning,ant,TREE_OF_THOUGHT,,,0,0,0
+5644415767ee,2026-03-10T19:14:07-07:00,docs: tighten troubleshooting safety guidance,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b7bafb40cbfd,2026-03-10T16:56:43+05:30,docs: add comprehensive troubleshooting guide (fixes #326),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+4de776341ee5,2026-03-10T19:14:07-07:00,fix: handle null tool_response fallback,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+708c265b4f8a,2026-03-10T20:02:53-04:00,fix: read tool_response field in observe.sh (#377),ispaydeu,TREE_OF_THOUGHT,,,0,0,0
+67841042d677,2026-03-11T09:55:56+09:00,refactor: deduplicate config lists and unify resolveFormatterBin branches,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+0a3afbe38fd6,2026-03-10T22:37:57+09:00,fix(hooks): add Windows .cmd support with shell injection guard,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+66498ae9acec,2026-03-08T16:53:20+09:00,perf(hooks): use direct require() instead of spawning child process,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+9ea415c0370a,2026-03-10T19:06:56+01:00,"fix: extract BLOCKING_SEVERITIES constant, document broad catch",Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+e30109829b30,2026-03-10T18:53:21+01:00,"fix: dict anomaly access, configurable fail mode, exception type logging",Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+68fc85ea492b,2026-03-10T18:25:23+01:00,fix: address cubic-dev-ai + coderabbit round 3 review,Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+0405ade5f4d7,2026-03-10T18:09:02+01:00,fix: make dev_mode configurable via INSAITS_DEV_MODE env var,Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+6c56e541dd9c,2026-03-10T18:08:19+01:00,fix: address cubic-dev-ai review — 3 issues,Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+44dc96d2c6a9,2026-03-10T17:52:44+01:00,"fix: address CodeRabbit review — convert to PreToolUse, add type annotations, logging",Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+e5d02000c3d6,2026-03-08T16:52:39+09:00,perf(hooks): eliminate npx overhead and merge biome invocations,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+f331d3ecc9b0,2026-03-08T16:46:35+09:00,feat(hooks): add shared resolve-formatter utility with caching,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+526a9070e649,2026-03-10T17:09:23+09:00,docs(ko-KR): add Korean translation for examples,hahmee,TREE_OF_THOUGHT,,,0,0,0
+af51fcacb70d,2026-03-09T22:05:35-07:00,fix: resolve PR 371 portability regressions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1c5e07ff77b1,2026-03-09T21:13:11-07:00,test: fix windows path shims for formatter hooks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d66bd6439b1f,2026-03-09T21:10:46-07:00,docs: clarify opencode npm plugin scope,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+440178d6970e,2026-03-09T21:07:42-07:00,fix: harden hook portability and plugin docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3144b96faa6a,2026-03-10T14:28:14+09:00,docs(ko-KR): add Korean terminology glossary,hahmee,TREE_OF_THOUGHT,,,0,0,0
+3e9c207c2553,2026-03-10T13:59:43+09:00,docs(ko-KR): complete all command translations with full examples,hahmee,TREE_OF_THOUGHT,,,0,0,0
+cbe2e68c26bc,2026-03-10T13:39:16+09:00,docs(ko-KR): complete missing sections in code-reviewer and planner translations,hahmee,TREE_OF_THOUGHT,,,0,0,0
+b3f8206d4708,2026-03-10T13:29:00+09:00,docs(ko-KR): add Korean translation for skills,hahmee,TREE_OF_THOUGHT,,,0,0,0
+a693d2e0237a,2026-03-10T12:56:11+09:00,docs(ko-KR): add Korean translation for commands and agents,hahmee,TREE_OF_THOUGHT,,,0,0,0
+540f738cc799,2026-03-10T01:02:58+01:00,feat: add InsAIts PostToolUse security monitoring hook,Nomadu27,TREE_OF_THOUGHT,,,0,0,0
+0f416b0b9d99,2026-03-08T08:40:48-07:00,Update recommended models to GPT 5.4,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b390fd141dd8,2026-03-08T18:00:43+09:00,docs(ko-KR): add Korean translation for rules,hahmee,TREE_OF_THOUGHT,,,0,0,0
+cb56d1a22d70,2026-03-08T17:58:02+09:00,docs: add Korean (ko-KR) README and CONTRIBUTING translation,hahmee,TREE_OF_THOUGHT,,,0,0,0
+6090401ccd8d,2026-03-07T22:45:44-08:00,fix: update hook integration tests for auto-tmux-dev behavior,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e3314f41e431,2026-03-07T20:26:24-08:00,fix: remove internal sponsor/partner notes from public README,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+036d8e872ccb,2026-03-07T20:26:04-08:00,"Revert ""fix: remove internal sponsor/partner notes from public README""",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+27ee3a449bde,2026-03-07T20:19:37-08:00,fix: remove internal sponsor/partner notes from public README,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b994a076c28c,2026-03-07T14:48:11-08:00,docs: add guidance for project documentation capture (#355),Frank,TREE_OF_THOUGHT,,,0,0,0
+e2d78d6defaa,2026-03-08T04:18:09+05:30,Add Contributor Covenant Code of Conduct (#330),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+9b69dd0d03d9,2026-03-08T05:48:07+07:00,feat(CLI): Add Antigravity IDE support via `--target antigravity` flag (#332),Dang Nguyen,TREE_OF_THOUGHT,,,0,0,0
+abcf38b0855f,2026-03-08T06:48:02+08:00,docs(zh-CN): sync Chinese docs with latest upstream changes (#341),zdoc.app,TREE_OF_THOUGHT,,,0,0,0
+da17d33ac3ce,2026-03-08T04:17:53+05:30,Fixed CI Workflows Failure fixed (in response to PR#286) (#291),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+177dd36e2338,2026-03-08T06:47:49+08:00,fix(hooks): allow tmux-wrapped dev server commands (#321),zzzhizhi,TREE_OF_THOUGHT,,,0,0,0
+7bed751db000,2026-03-07T19:47:46-03:00,fix: auto-start dev servers in tmux instead of blocking (#344),Helbetica,TREE_OF_THOUGHT,,,0,0,0
+e9577e34f1f9,2026-03-07T14:47:35-08:00,fix: force UTF-8 for instinct CLI file IO (#353),Frank,TREE_OF_THOUGHT,,,0,0,0
+9661a6f042d5,2026-03-08T08:47:31+10:00,fix(hooks): scrub secrets and harden hook security (#348),jtzingsheim1,TREE_OF_THOUGHT,,,0,0,0
+03b3e0d0da32,2026-03-06T07:36:36+08:00,docs: add upstream tracking flag to push example (#327),Sense_wang,TREE_OF_THOUGHT,,,0,0,0
+1797e79129ad,2026-03-05T12:48:57-08:00,Merge pull request #334 from affaan-m/codex/release-1.8.0-core,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1f8b3eaba7b3,2026-03-05T12:43:53-08:00,fix: normalize hook command execution in integration tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d1f44e89e247,2026-03-05T12:37:24-08:00,fix: stabilize windows hook and claw tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5fe40f4a6352,2026-03-04T16:17:12-08:00,docs: add sponsorship playbook and monthly metrics automation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c4a5a69dbd3e,2026-03-04T15:29:37-08:00,docs: strengthen sponsor optics with live metrics and tiers,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5e1472263d25,2026-03-05T00:50:33+07:00,Update install.sh,Dang Nguyen,TREE_OF_THOUGHT,,,0,0,0
+61485f91ad2b,2026-03-05T00:44:18+07:00,feat(CLI): Add Antigravity IDE support via `--target antigravity` flag,dangnd1,TREE_OF_THOUGHT,,,0,0,0
+57eb9361db4a,2026-03-04T04:24:30Z,docs: add upstream tracking flag to push example,Hao Wang,TREE_OF_THOUGHT,,,0,0,0
+98643ef6e61c,2026-03-04T21:20:39+05:30,Add Contributor Covenant Code of Conduct,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+f94707d429dd,2026-02-28T13:59:02+09:00,fix(commands): make ace-tool MCP optional in multi-* commands with built-in fallbacks,to.watanabe,TREE_OF_THOUGHT,,,0,0,0
+48b883d74129,2026-03-04T14:48:06-08:00,feat: deliver v1.8.0 harness reliability and parity updates,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5fb173942cc2,2026-03-04T21:20:05+09:00,"Initial commit: Tree of Thought vault — 21 argument nodes, 14 skills, full infrastructure",Kyeong Sun Kim,TREE_OF_THOUGHT,,,0,0,0
+32e9c293f0d6,2026-03-03T12:32:35-08:00,chore: replace external repo links with @username attribution,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cd129edef023,2026-03-03T12:16:49-08:00,feat(skills): add autonomous-loops and plankton-code-quality skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9dc76fd27b72,2026-03-03T07:56:15-08:00,Merge pull request #323 from pythonstrup/chore/add-prettierrc,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3260c7449e6e,2026-03-03T22:11:51+09:00,fix(lint): remove unnecessary escape characters in regex patterns,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+66143eaf74df,2026-03-03T22:01:20+09:00,chore: add .prettierrc for consistent code formatting,Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+9dfe14931060,2026-03-03T18:24:39+05:30,Add videodb in readme's folder structure,Rohit Garg,TREE_OF_THOUGHT,,,0,0,0
+179a0272d1cd,2026-03-03T18:20:30+05:30,videodb skills update: add reference files for videodb skills,Rohit Garg,TREE_OF_THOUGHT,,,0,0,0
+cff03085682e,2026-03-03T18:16:39+05:30,videodb skills update: add reference files for videodb skills,Rohit Garg,TREE_OF_THOUGHT,,,0,0,0
+ada4cd75a3dd,2026-03-03T14:28:27+08:00,docs(zh-CN): sync Chinese docs with latest upstream changes (#304),zdoc.app,TREE_OF_THOUGHT,,,0,0,0
+adc0f6700813,2026-03-03T14:23:01+08:00,fix(continuous-learning-v2): observer background process crashes immediately (#312),zzzhizhi,TREE_OF_THOUGHT,,,0,0,0
+3bfd29bb460c,2026-03-02T22:16:58-08:00,fix(hooks): exclude .history/ directory from doc file warning,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1df0a53f2262,2026-03-02T22:15:46-08:00,"fix: resolve CI failures on main — lint, hooks validator, and test alignment",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+912df24f4a06,2026-03-03T09:07:10+03:00,feat: automatic project type and framework detection (#293),justtrance-web,TREE_OF_THOUGHT,,,0,0,0
+e000bbe5e4b8,2026-03-03T14:00:33+08:00,fix(session-end): always update session summary content (#317),will,TREE_OF_THOUGHT,,,0,0,0
+bc64712b5d46,2026-03-03T11:28:20+05:30,Delete .github/workflows/copilot-setup-steps.yml (#319),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+5818e8adc71e,2026-03-02T04:07:13+08:00,feat: project-scoped instinct isolation,Harry Kwok,TREE_OF_THOUGHT,,,0,0,0
+2d3be88bb550,2026-02-28T10:09:51-08:00,"docs: update positioning to performance optimization system, add Plankton reference",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+87a2ed51dcdd,2026-02-28T10:09:51-08:00,feat: add exa-web-search to MCP config template,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b68558d749d3,2026-02-28T10:09:51-08:00,feat: expand research-first mandate in development workflow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1fa22efd906b,2026-02-28T10:09:51-08:00,chore: clean up FUNDING.yml format,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dc8455dd10ed,2026-02-28T10:06:43-08:00,feat: separate core vs niche skills and enforce research-first default,Codex,TREE_OF_THOUGHT,,,0,0,0
+c1954aee7219,2026-02-28T07:08:10+05:30,Merge branch 'main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+c26ba6000310,2026-02-27T22:13:59+05:30,Add VideoDB Skills to Individual Skills,Rohit Garg,TREE_OF_THOUGHT,,,0,0,0
+b3d3eac532df,2026-02-27T06:06:41-08:00,chore: release v1.7.0,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+706ee80069e2,2026-02-27T05:50:23-08:00,feat: add generic content and investor skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+87fc2d5089b9,2026-02-27T05:39:31-08:00,Add frontend slides skill across platforms,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2d9cc5c33660,2026-02-27T03:12:08-08:00,fix: restructure plugin manifest for Cowork marketplace compatibility,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b21596de20ac,2026-02-27T02:29:17-08:00,"fix: sync plugin manifest to v1.6.0, add chief-of-staff agent, fix placeholder email",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7713ceeec0d4,2026-02-26T20:08:14-08:00,fix(docs): use namespaced /everything-claude-code:plan in README examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3b2448dbb400,2026-02-26T18:40:31-08:00,fix(hooks): extract doc-warning hook to external script to fix CI,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+71447f663485,2026-02-27T11:34:50+09:00,feat(agents): add chief-of-staff communication triage agent (#280),tomochang,TREE_OF_THOUGHT,,,0,0,0
+d70bab85e33a,2026-02-25T10:45:29-08:00,"feat: add Cursor, Codex, and OpenCode harnesses — maximize every AI coding tool",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a9b104fc2352,2026-02-25T07:19:44-08:00,feat: add security guides and sanitize external links across repo,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fb94c645f7b5,2026-02-25T18:07:07+03:00,fix: address CodeRabbit review feedback,nocodemf,TREE_OF_THOUGHT,,,0,0,0
+6e48f43e4ec4,2026-02-25T17:53:26+03:00,feat(skills): Add 8 operational domain skills from Evos,nocodemf,TREE_OF_THOUGHT,,,0,0,0
+82fa0bc03da3,2026-02-25T17:37:54+03:00,Add 8 operational domain skills from Evos,nocodemf,TREE_OF_THOUGHT,,,0,0,0
+1cda15440a43,2026-02-25T20:01:13+05:30,Merge pull request #13 from pangerlkr/claude/fix-all-workflows,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+264b44f6179d,2026-02-25T14:27:33Z,fix: remove malformed copilot-setup-steps.yml and fix hooks.json regex,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2652578aa45a,2026-02-25T14:19:05Z,Initial plan,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+3d63fd33b9e3,2026-02-24T09:24:41-08:00,Merge pull request #233 from andydiaz122/nano_claw_v1,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f80004e5e8c1,2026-02-24T09:24:31-08:00,Merge pull request #276 from pangerlkr/patch-7,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4dbc0aa96697,2026-02-24T09:24:28-08:00,Merge pull request #273 from bintocher/bintocher/issue-246,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0f5f6e394e3d,2026-02-24T09:24:19-08:00,Merge pull request #255 from CindyPersonalGit/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f730fae78e5f,2026-02-24T09:24:15-08:00,Merge pull request #252 from pythonstrup/feat/auto-detect-formatter,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+717d54383c6b,2026-02-24T09:24:11-08:00,Merge pull request #250 from OkminLee/feat/skills/ios26-three-skills,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bbbb2d637e3f,2026-02-24T09:23:48-08:00,Merge pull request #244 from maxdimitrov/feat/rules/swift,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8526f9a754f0,2026-02-24T09:23:45-08:00,Merge pull request #242 from t-s-li/fix/observe-hook-phase-detection,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6c79e8e3392f,2026-02-24T09:11:36-08:00,Merge pull request #277 from pangerlkr/docs/rule-priority-conflict-resolution,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5dad143f90e7,2026-02-24T09:11:32-08:00,Merge pull request #278 from pangerlkr/feat/separate-development-workflow-235,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e0b3a7be65bd,2026-02-24T10:20:17-05:00,"fix: address CodeRabbit review — deduplicate prompt, fix skill count",andydiaz122,TREE_OF_THOUGHT,,,0,0,0
+ce3e5a3b3c13,2026-02-24T13:51:13+05:30,docs(hooks/README): update Doc file blocker to reflect warning-only behavior,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+72d0ca8fc1eb,2026-02-24T13:49:03+05:30,"fix(hooks): address review feedback - fix brace escaping, cross-platform paths, update description",Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+253aecbebd1c,2026-02-24T13:42:08+05:30,feat(rules): add development-workflow.md with Feature Implementation Workflow (refs #235),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+946f2ca18c08,2026-02-24T13:41:19+05:30,refactor(rules): split Feature Implementation Workflow from git-workflow.md (refs #235),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+e78b8f256058,2026-02-24T13:38:00+05:30,docs(rules): add Rule Priority section to resolve language-specific vs common rule conflicts,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+a1470cf8397d,2026-02-24T13:32:33+05:30,"Update hooks.jsonRefine Write hook: cross-platform path handling, skippability, and expanded whitelist. Addressing #264, #267, #275, and #248.",Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+0af5273d1a76,2026-02-24T13:26:48+05:30,Refine hooks for documentation file management,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+300b6715f960,2026-02-24T14:39:25+09:00,fix(skills): improve code examples in iOS 26 skills,Okmin,TREE_OF_THOUGHT,,,0,0,0
+1e79991407db,2026-02-24T11:49:54+09:00,fix(readme): correct skill count to 48 and add missing skill-stocktake to directory listing,Okmin,TREE_OF_THOUGHT,,,0,0,0
+c91636185d0c,2026-02-19T13:22:40+09:00,fix(skills): add Approachable Concurrency build settings note to PhotoProcessor example,Okmin,TREE_OF_THOUGHT,,,0,0,0
+0a770caf8458,2026-02-19T12:15:41+09:00,fix(skills): address code review feedback on iOS 26 skill examples,Okmin,TREE_OF_THOUGHT,,,0,0,0
+3b8c1579525b,2026-02-19T12:01:33+09:00,"chore: update skill count from 43 to 46, add 3 iOS 26 skills to directory listing",Okmin,TREE_OF_THOUGHT,,,0,0,0
+721a2b284061,2026-02-19T12:01:29+09:00,feat(skills): add swift-concurrency-6-2 skill for Approachable Concurrency,Okmin,TREE_OF_THOUGHT,,,0,0,0
+1fb2e460decf,2026-02-19T12:01:24+09:00,feat(skills): add foundation-models-on-device skill for Apple on-device LLM,Okmin,TREE_OF_THOUGHT,,,0,0,0
+70be11cc454a,2026-02-19T12:01:18+09:00,feat(skills): add liquid-glass-design skill for iOS 26 Liquid Glass UI system,Okmin,TREE_OF_THOUGHT,,,0,0,0
+48dafdd288ca,2026-02-23T19:00:57+03:00,fix: add origin metadata to skills for traceability Add origin field to all skill files to track their source repository. This enables users to identify where distributed skills originated from. Fixes,Stanislav Chernov,TREE_OF_THOUGHT,,,0,0,0
+db27ba1eb225,2026-02-23T06:56:00-08:00,chore: update README stats and add Codex platform support,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3c833d8922ff,2026-02-23T06:55:38-08:00,Merge pull request #265 from shimo4228/feat/skills/skill-stocktake,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+156b89ed308c,2026-02-23T06:55:35-08:00,Merge pull request #268 from pangerlkr/patch-6,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+41ce1a52e500,2026-02-22T16:19:16+05:30,feat: add scripts/codemaps/generate.ts codemap generator  Fixes #247 - The generate.ts script referenced in agents/doc-updater.md was missing from the repository. This adds the actual implementation. ,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+6f94c2e28fe5,2026-02-22T09:04:39+09:00,fix(search-first): add missing skill name frontmatter (#266),Jongchan,TREE_OF_THOUGHT,,,0,0,0
+91b7ccf56f76,2026-02-22T04:29:40+09:00,feat(skills): add skill-stocktake skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+7daa830da9d4,2026-02-20T21:17:57-08:00,Merge pull request #263 from shimo4228/feat/commands/learn-eval,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7e57d1b83199,2026-02-20T21:17:54-08:00,Merge pull request #262 from shimo4228/feat/skills/search-first,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ff47dace11c6,2026-02-21T12:10:39+09:00,feat(commands): add learn-eval command,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+c9dc53e862ec,2026-02-21T12:10:25+09:00,feat(skills): add search-first skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+dbe737cc0b14,2026-02-17T10:33:38+08:00,"address review: remove .cursor/ duplicate, use `is not None` checks",tsli,TREE_OF_THOUGHT,,,0,0,0
+cb4e4ca711c6,2026-02-17T10:18:36+08:00,fix: use CLI argument for hook phase detection in observe.sh,tsli,TREE_OF_THOUGHT,,,0,0,0
+c8f54481b874,2026-02-20T10:59:12-08:00,chore: update Sonnet model references from 4.5 to 4.6,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+294fc4aad897,2026-02-20T10:59:10-08:00,fix: CI/Test for issue #226 (hook override bug),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+81aa8a72c3aa,2026-02-20T15:37:31+08:00,chore: update Sonnet model references from 4.5 to 4.6,yptse123,TREE_OF_THOUGHT,,,0,0,0
+0e9f613fd196,2026-02-20T01:11:30-08:00,"Revert ""feat(ecc): prune plugin 43→12 items, promote 7 rules to .claude/rules/ (#245)""",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a52fb7a9d944,2026-02-20T16:25:23+08:00,feat(skills): add visa-doc-translate skill,Visa Doc Translator,TREE_OF_THOUGHT,,,0,0,0
+1bd68ff53420,2026-02-20T15:34:51+09:00,"feat(ecc): prune plugin 43→12 items, promote 7 rules to .claude/rules/ (#245)",park-kyungchan,TREE_OF_THOUGHT,,,0,0,0
+4eb6fbdd3f7d,2026-02-20T14:30:01+09:00,feat: auto-detect formatter in post-edit hook (Biome/Prettier),Jonghyeok Park,TREE_OF_THOUGHT,,,0,0,0
+24047351c29b,2026-02-19T04:56:49-08:00,Merge pull request #251 from gangqian68/main,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+66959c1dcadc,2026-02-19T16:50:08+08:00,docs: add CLAUDE.md for Claude Code guidance,qian gang,TREE_OF_THOUGHT,,,0,0,0
+5a0f6e9e1ec9,2026-02-19T06:43:40+05:30,Merge pull request #12 from pangerlkr/copilot/fix-ci-test-failures-again,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+cf61ef753976,2026-02-18T15:10:32Z,Fix Windows CI test failures - add platform checks and USERPROFILE support,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+07e23e3e6439,2026-02-18T15:00:14Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+8fc49ba0e8d7,2026-02-18T20:29:40+05:30,Merge pull request #11 from pangerlkr/copilot/fix-ci-test-failures,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+b90448aef67a,2026-02-18T14:05:46Z,Clarify cleanup comment scope in session-manager tests,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+caab908be8bc,2026-02-18T14:02:11Z,Fix session-manager test environment for Rounds 95-98,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+7021d1f6cf6b,2026-02-18T13:51:40Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+3ad211b01b6e,2026-02-18T19:21:21+05:30,Merge pull request #10 from pangerlkr/copilot/fix-matrix-test-failures,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+f61c9b0cafca,2026-02-18T13:42:05Z,Fix integration/hooks tests to handle Windows platform differences,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+b682ac7d796e,2026-02-18T13:36:31Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+e1fca6e84d69,2026-02-18T18:33:04+05:30,Merge branch 'affaan-m:main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+07530ace5f86,2026-02-18T13:42:01+05:30,Merge pull request #9 from pangerlkr/claude/fix-agentshield-security-scan,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+00464b6f6084,2026-02-18T08:06:25Z,Fix failing workflows: trim action in getCommandPattern and remove broken AgentShield scan,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+0c78a7c779bf,2026-02-18T08:00:23Z,Initial plan,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+fca997001e94,2026-02-18T13:16:01+05:30,Merge pull request #7 from pangerlkr/copilot/fix-workflow-failures,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+1eca3c913052,2026-02-18T07:40:12Z,Fix stdin overflow bug in hook scripts - truncate chunks to stay within MAX_STDIN limit,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+defcdc356e20,2026-02-18T07:28:13Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+b548ce47c944,2026-02-18T12:56:29+05:30,Merge pull request #6 from pangerlkr/copilot/fix-workflow-actions,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+90e6a8c63b84,2026-02-18T07:22:05Z,Fix copilot-setup-steps.yml and address PR review comments,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+c68f7efcdc52,2026-02-18T07:16:12Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+aa805d524080,2026-02-18T12:42:38+05:30,Merge pull request #5 from pangerlkr/claude/fix-workflow-actions,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+c5ca3c698cbc,2026-02-18T07:04:29Z,Fix ESLint errors in test files and package-manager.js,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+7e928572c7f6,2026-02-18T06:58:35Z,Initial plan,anthropic-code-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+0bf47bbb41c4,2026-02-18T07:29:16+05:30,Update print statement from 'Hfix: update package manager tests and add summaryello' to 'Goodbye',Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+2ad888ca82c6,2026-02-18T07:21:58+05:30,Refactor console log formatting in tests,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+8966282e48d1,2026-02-18T07:18:40+05:30,fix: add comments to empty catch blocks (no-empty ESLint),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+3d9798555951,2026-02-18T07:15:53+05:30,fix: remove unused execFileSync import (no-unused-vars ESLint),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+d54124afad97,2026-02-18T07:14:32+05:30,fix: remove useless escape characters in regex patterns (no-useless-escape ESLint),Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+9d8e4b5af831,2026-02-17T17:04:31+02:00,fix: correct SwiftUI skill ViewModel injection and Equatable comparison,Maksim Dimitrov,TREE_OF_THOUGHT,,,0,0,0
+f5149d84ec24,2026-02-17T15:52:15+02:00,feat: add swiftui-patterns skill,Maksim Dimitrov,TREE_OF_THOUGHT,,,0,0,0
+6792e9173518,2026-02-17T15:43:14+02:00,feat: add Swift language-specific rules,Maksim Dimitrov,TREE_OF_THOUGHT,,,0,0,0
+0b11849f1e70,2026-02-16T20:04:57-08:00,"chore: update skill count from 37 to 43, add 5 new skills to directory listing",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2c26d2d67c99,2026-02-16T20:03:07-08:00,fix: add missing process.exit(0) to early return in post-edit-console-warn hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fdda6cbcd966,2026-02-17T07:00:12+05:30,Merge branch 'main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+5cb9c1c2a5a2,2026-02-16T14:19:02-08:00,Merge pull request #223 from shimo4228/feat/skills/regex-vs-llm-structured-text,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+595127954f73,2026-02-16T14:18:59-08:00,Merge pull request #222 from shimo4228/feat/skills/content-hash-cache-pattern,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bb084229aa09,2026-02-16T14:18:57-08:00,Merge pull request #221 from shimo4228/feat/skills/swift-actor-persistence,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+849bb3b425bb,2026-02-16T14:18:55-08:00,Merge pull request #220 from shimo4228/feat/skills/swift-protocol-di-testing,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4db215f60d02,2026-02-16T14:18:53-08:00,Merge pull request #219 from shimo4228/feat/skills/cost-aware-llm-pipeline,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bb1486c404c0,2026-02-16T14:18:35-08:00,Merge pull request #229 from voidforall/feat/cpp-coding-standards,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9339d4c88ca0,2026-02-16T14:18:13-08:00,Merge pull request #228 from hrygo/fix/observe.sh-timestamp-export,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2497a9b6e590,2026-02-16T14:18:10-08:00,Merge pull request #241 from sungpeo/mkdir-rules-readme,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e449471ed390,2026-02-16T14:18:08-08:00,Merge pull request #230 from neal-zhu/fix/whitelist-plan-files-in-doc-hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cad8db21b78b,2026-02-17T01:48:37+09:00,docs: add mkdir for rules directory in ja-JP and zh-CN READMEs,Sungpeo Kook,TREE_OF_THOUGHT,,,0,0,0
+9d9258c7e186,2026-02-17T01:32:56+09:00,docs: require default directory creation for initial user-level rules,Sungpeo Kook,TREE_OF_THOUGHT,,,0,0,0
+08ee723e8598,2026-02-16T19:23:01+05:30,Merge pull request #3 from pangerlkr/copilot/fix-markdownlint-errors-again,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+f11347a708ac,2026-02-16T19:20:56+05:30,Merge pull request #4 from pangerlkr/copilot/fix-markdownlint-errors-another-one,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+586637f94c54,2026-02-16T03:01:15Z,Revert unrelated package-lock.json changes,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2b6ff6b55ef7,2026-02-16T02:58:12Z,Initial plan for markdownlint error fixes,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2be6e0950147,2026-02-16T02:55:40Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+b1d47b22eaf1,2026-02-16T02:37:38Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+9dd4f4409b29,2026-02-16T07:58:23+05:30,Merge pull request #2 from pangerlkr/copilot/fix-markdownlint-errors,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+c5de2a7bf704,2026-02-16T02:22:49Z,Remove misleading comments about trailing spaces,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+af24c617bb29,2026-02-16T02:22:14Z,"Fix all markdownlint errors (MD038, MD058, MD025, MD034)",copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+2ca903d4c5a5,2026-02-16T02:20:28Z,Initial plan,copilot-swe-agent[bot],TREE_OF_THOUGHT,,,0,0,0
+4d98d9f12561,2026-02-16T07:10:39+05:30,Add Go environment setup step to workflow,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+853c64d7c1b2,2026-02-15T12:02:19-05:00,feat: add NanoClaw agent REPL — persistent session-aware CLI for ECC,andydiaz122,TREE_OF_THOUGHT,,,0,0,0
+40e80bcc614e,2026-02-15T08:49:15+08:00,fix: whitelist .claude/plans/ in doc file creation hook,Maohua Zhu,TREE_OF_THOUGHT,,,0,0,0
+eaf710847f35,2026-02-14T20:36:36Z,fix syntax in illustrative example,Lin Yuan,TREE_OF_THOUGHT,,,0,0,0
+b169a2e1ddcb,2026-02-14T20:33:59Z,Update .cursor/skills/cpp-coding-standards/SKILL.md,voidforall,TREE_OF_THOUGHT,,,0,0,0
+8b4aac4e5675,2026-02-14T20:26:33Z,feat: add cpp-coding-standards skill to skills/ and update README,Lin Yuan,TREE_OF_THOUGHT,,,0,0,0
+08f60355d41f,2026-02-14T20:20:27Z,feat: add cpp-coding-standards skill based on C++ Core Guidelines,Lin Yuan,TREE_OF_THOUGHT,,,0,0,0
+1f74889dbfe2,2026-02-14T21:25:50+08:00,fix: correct TIMESTAMP environment variable syntax in observe.sh,黄飞虹,TREE_OF_THOUGHT,,,0,0,0
+82d751556c74,2026-02-14T12:33:03+09:00,feat(skills): add regex-vs-llm-structured-text skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+3847cc0e0deb,2026-02-14T12:31:30+09:00,feat(skills): add content-hash-cache-pattern skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+94eaaad23894,2026-02-14T12:30:22+09:00,feat(skills): add swift-actor-persistence skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+ab5be936e972,2026-02-14T12:18:48+09:00,feat(skills): add swift-protocol-di-testing skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+219bd1ff88e8,2026-02-14T12:16:05+09:00,feat(skills): add cost-aware-llm-pipeline skill,Tatsuya Shimomoto,TREE_OF_THOUGHT,,,0,0,0
+4ff6831b2b37,2026-02-13T18:47:48-08:00,Delete llms.txt,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+182e9e78b958,2026-02-13T18:44:07-08:00,"test: add 3 edge-case tests for readFile binary, output() NaN/Infinity, loadAliases __proto__ safety",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0250de793a55,2026-02-13T18:40:07-08:00,"test: add 3 edge-case tests for findFiles dotfiles, getAllSessions date format, parseSessionMetadata title regex",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+88fa1bdbbc1e,2026-02-13T18:36:09-08:00,"test: add 3 edge-case tests for countInFile overlapping, replaceInFile $& tokens, parseSessionMetadata CRLF",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2753db3a480f,2026-02-13T18:30:42-08:00,"test: add 3 edge-case tests for findFiles dot escaping, listAliases limit falsy values, getSessionById old format",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e50b05384a33,2026-02-13T18:25:56-08:00,"test: add Round 121 tests for findFiles ? glob, setAlias path validation, and time metadata extraction",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+26f3c8890206,2026-02-13T18:23:55-08:00,"test: add Round 120 tests for replaceInFile empty search, setAlias length boundary, and notes extraction",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+df2d3a6d5435,2026-02-13T18:21:39-08:00,"test: add Round 119 tests for appendFile type safety, renameAlias reserved names, and context extraction",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+25c5d58c440f,2026-02-13T18:19:21-08:00,"test: add Round 118 edge-case tests for writeFile type safety, renameAlias self, and reserved alias names",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+06af1acb8daa,2026-02-13T18:16:10-08:00,"test: add Round 117 edge-case tests for grepFile CRLF, getSessionSize boundaries, and parseSessionFilename case",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6a0b231d340a,2026-02-13T18:11:58-08:00,"test: add Round 116 edge-case tests for replaceInFile null coercion, loadAliases extra fields, and ensureDir null path",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a563df2a5201,2026-02-13T18:05:28-08:00,"test: add edge-case tests for countInFile empty pattern, parseSessionMetadata CRLF, and updateAliasTitle empty string coercion (round 115)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+53e06a8850e8,2026-02-13T18:01:25-08:00,"test: add edge-case tests for listAliases type coercion, replaceInFile options.all with RegExp, and output BigInt serialization (round 114)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+93633e44f271,2026-02-13T17:54:48-08:00,"test: add 3 tests for century leap years, zero-width regex, and markdown titles (Round 113)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+791da32c6b54,2026-02-13T17:47:50-08:00,"test: add 3 tests for Unicode alias rejection, newline-in-path heuristic, and read-only append (Round 112)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+635eb108abd9,2026-02-13T17:41:58-08:00,"test: add 3 tests for nested backtick context truncation, newline args injection, alias 128-char boundary",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1e740724ca0f,2026-02-13T17:30:38-08:00,"test: add 3 tests for findFiles root-unreadable, parseSessionFilename year 0000, uppercase ID rejection",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6737f3245b2d,2026-02-13T17:24:36-08:00,"test: add 3 tests for appendFile new-file creation, getExecCommand traversal, getAllSessions non-session skip",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1b273de13f3a,2026-02-13T17:18:06-08:00,"test: add 3 tests for grepFile Unicode, SAFE_NAME_REGEX traversal, getSessionSize boundary",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+882157ac0915,2026-02-13T17:11:32-08:00,test: add 3 tests for Round 107 (881 total),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+69799f2f803c,2026-02-13T17:07:13-08:00,test: add 3 tests for Round 106 (878 total),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b27c21732ff3,2026-02-13T16:59:56-08:00,"test: add 3 edge-case tests for regex boundary, sticky flag, and type bypass (Round 105)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+332d0f444bb7,2026-02-13T16:45:47-08:00,"test: add Round 104 edge-case tests (detectFromLockFile null, resolveSessionAlias traversal, whitespace notes)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+45a0b62fcbe1,2026-02-13T16:08:47-08:00,"test: add Round 103 edge-case tests (countInFile bool, grepFile numeric, loadAliases array)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a64a294b29f9,2026-02-13T16:02:18-08:00,"test: add 3 edge-case tests for looksLikePath heuristic, falsy title coercion, and checkbox regex (Round 102)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4d016babbbd5,2026-02-13T15:54:02-08:00,"test: round 101 — output() circular crash, getSessionStats type confusion, appendSessionContent null",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d2c1281e97a5,2026-02-13T15:49:06-08:00,"test: round 100 — findFiles maxAge+recursive interaction, parseSessionMetadata ### truncation, cleanupAliases falsy coercion",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+78ad952433f8,2026-02-13T15:41:15-08:00,"test: add 3 tests for no-match rewrite, CR-only grepFile, and null write (R99)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+274cca025e52,2026-02-13T15:35:18-08:00,test: add 3 tests for null-input crashes and negative maxAge boundary (R98),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+18fcb881688c,2026-02-13T15:28:06-08:00,"test: add 3 tests for whitespace ID, lastIndex reuse, and whitespace search (Round 97)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8604583d167d,2026-02-13T15:13:55-08:00,test: add 3 tests for session-manager edge cases (Round 96),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+233b3415579f,2026-02-13T14:50:49-08:00,"test: add 3 tests for alternation regex, double-negative clamping, and self-rename (Round 95)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a95fb54ee4ef,2026-02-13T14:44:40-08:00,"test: add 3 tests for scoped pkg detection, empty env var, and tools-without-files (Round 94)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+910ffa55309c,2026-02-13T14:21:03-08:00,test: add 3 tests for regex boundary and flag logic gaps (round 93),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b9a38b268003,2026-02-13T14:05:24-08:00,"test: add Round 92 tests for object pattern, UNC path, and empty packageManager",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+14dfe4d1109a,2026-02-13T14:02:41-08:00,"test: add Round 91 tests for empty action pattern, whitespace PM, and mixed separators",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3e98be3e3989,2026-02-13T13:59:03-08:00,test: add Round 90 tests for readStdinJson timeout and saveAliases double failure,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3ec59c48bcea,2026-02-13T13:39:16-08:00,"test: add 3 tests for subdirectory skip, TypeScript error detection, and entry.name fallback (Round 89)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e70d4d223755,2026-02-13T12:49:53-08:00,"test: add 3 tests for replaceInFile deletion, parseSessionMetadata null fields, countInFile zero matches (Round 88)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9b286ab3f83b,2026-02-13T12:42:20-08:00,test: add 3 tests for stdin 1MB overflow and analyzePhase async method (round 87),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b3e362105d69,2026-02-13T12:23:34-08:00,"test: add 3 tests for typeof guard, empty package.json, and learned_skills_path override (round 86)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8cacf0f6a618,2026-02-13T12:11:26-08:00,fix: use nullish coalescing for confidence default + add 3 tests (round 85),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cedcf9a7012f,2026-02-13T11:35:22-08:00,test: add 3 tests for TOCTOU catch paths and NaN date sort fallback (round 84),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+15717d6d04a4,2026-02-13T11:20:44-08:00,"test: cover whitespace-only frontmatter field, empty SKILL.md, and getAllSessions TOCTOU symlink",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c8b7d41e427e,2026-02-13T11:12:03-08:00,"test: cover tool_name OR fallback, Notification/SubagentStop events, and template regex no-match",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9bec3d7625dd,2026-02-13T11:02:46-08:00,"test: cover suggest-compact upper bound, getSessionStats null input, and non-string content branch",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2573cbb7b046,2026-02-13T10:39:35-08:00,"test: cover session-end message.role path, getExecCommand non-string args, and legacy hooks format",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9dccdb9068dd,2026-02-13T10:26:58-08:00,test: cover countInFile/grepFile string patterns and validate-commands warnings suffix,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f000d9b02dd0,2026-02-13T10:21:06-08:00,"test: cover getSessionStats file-path read, hasContent field, and wrapped hooks format",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+27ae5ea29966,2026-02-13T10:03:48-08:00,test: cover evaluate-session/suggest-compact main().catch and validate-hooks JSON parse,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+723e69a62159,2026-02-13T09:59:48-08:00,"test: cover deleteSession catch, pre-compact and session-end main().catch",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+241c35a58952,2026-02-13T09:55:00-08:00,test: cover setGlobal/setProject catch blocks and session-start main().catch,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0c67e0571e21,2026-02-13T09:42:25-08:00,"test: cover cleanupAliases save failure, setAlias save failure, and validate-commands statSync catch",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+02d598604931,2026-02-13T08:12:27-08:00,"test: cover setProjectPM save failure, deleteAlias save failure, hooks async/timeout validation",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f623e3b42902,2026-02-13T08:01:15-08:00,"test: cover findFiles unreadable subdir, session-start default PM, setPreferredPM save failure",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+44b5a4f9f0c8,2026-02-13T07:48:39-08:00,test: add 3 tests for untested fallback/skip/failure paths (Round 70),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+567664091dac,2026-02-13T07:35:20-08:00,"test: add 3 tests for untested code paths (Round 69, 812 total)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5031a84d6e28,2026-02-13T07:23:16-08:00,"test: add 3 tests for setup-pm --project success, demo export, --list marker (Round 68)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+702c3f54b4b3,2026-02-13T07:18:28-08:00,"test: add 3 tests for session-aliases empty file, null resolve, metadata backfill (Round 67)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+162222a46c41,2026-02-13T07:10:54-08:00,"test: add 3 tests for session-manager noIdMatch, session-end fallbacks (Round 66)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+485def8582a4,2026-02-13T07:04:55-08:00,"test: add 3 tests for evaluate-session regex, empty rules/skills dirs (Round 65)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cba6b44c6159,2026-02-13T06:59:08-08:00,"test: add 3 tests for suggest-compact, session-aliases, typecheck (Round 64)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+1fcdf12b6251,2026-02-13T06:55:30-08:00,test: add 3 CI validator tests for untested code paths (Round 63),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+85a86f67471d,2026-02-13T06:49:29-08:00,"test: add --global success, bare PM name, and source label tests (Round 62)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3ec0aa7b50cb,2026-02-13T06:44:52-08:00,"test: add replaceInFile write failure, empty sessions dir, and corrupted global config tests (Round 61)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9afecedb2112,2026-02-13T06:25:35-08:00,"test: add replaceInFile failure, console-warn overflow, and missing tool_input tests (Round 60)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7db0d316f54c,2026-02-13T06:19:02-08:00,"test: add unreadable session file, stdin overflow, and read-only compact tests (Round 59)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+99fc51dda732,2026-02-13T06:14:06-08:00,"test: add unreadable agent file, colonIdx edge case, and command-as-object tests (Round 58)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2fea46edc773,2026-02-13T06:02:56-08:00,"test: add SKILL.md-as-directory, broken symlink, and adjacent code block tests (Round 57)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+990c08159c04,2026-02-13T05:59:07-08:00,"test: add tsconfig walk-up, compact fallback, and Windows atomic write tests (Round 56)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+43808ccf7849,2026-02-13T05:48:34-08:00,"test: add maxAge boundary, multi-session injection, and stdin overflow tests (Round 55)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3bc0929c6e4c,2026-02-13T05:43:29-08:00,"test: add search scope, path utility, and zero-value analysis tests (Round 54)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ad40bf3aad24,2026-02-13T05:34:59-08:00,"test: add env var fallback, console.log max matches, and format non-existent file tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f1a693f7cfe3,2026-02-13T05:29:04-08:00,"test: add inline backtick ref, workflow whitespace, and code-only rule tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4e520c687386,2026-02-13T05:23:16-08:00,"test: add timeout enforcement, async hook schema, and command format validation tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+86844a305a50,2026-02-13T05:13:56-08:00,"test: add alias reporting, parallel compaction, and graceful degradation tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b950fd742734,2026-02-13T05:10:07-08:00,test: add typecheck extension edge cases and conditional summary section tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+71e86cc93f62,2026-02-13T05:04:58-08:00,test: add packageManager version format and sequential save integrity tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4f7b50fb782f,2026-02-13T05:01:28-08:00,test: add inline JS escape validation and frontmatter colon-less line tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+277006bd7f18,2026-02-13T04:51:39-08:00,test: add Windows path heuristic and checkbox case sensitivity tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f6ebc2a3c26a,2026-02-13T04:47:30-08:00,test: add setup-package-manager marker uniqueness and list completeness tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+443986e0862a,2026-02-13T04:43:59-08:00,test: verify session-start.js handles empty (0-byte) session file gracefully,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c92d3f908fbd,2026-02-13T04:39:25-08:00,test: verify getSessionById excludes content/metadata/stats when includeContent is false,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b868f42ad1a1,2026-02-13T04:35:02-08:00,"test: add validator edge-case tests for case sensitivity, frontmatter spacing, missing dirs, and empty matchers",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+842ff2eff652,2026-02-13T04:31:05-08:00,test: verify pre-compact annotates only newest session file when multiple exist,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b678c2f1b0aa,2026-02-13T04:28:50-08:00,fix: collapse newlines in user messages to prevent markdown list breaks in session-end,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dc11fc2fd8ac,2026-02-13T04:23:22-08:00,fix: make saveAliases atomic on Unix by skipping unnecessary unlink before rename,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0daa5cb07065,2026-02-13T04:19:13-08:00,test: add evaluate-session tilde expansion and missing config tests (Round 38),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e2040b46b338,2026-02-13T04:15:13-08:00,fix: remove unreachable return after process.exit in post-edit-typecheck hook,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c93c218cb8a4,2026-02-13T04:09:31-08:00,fix: sync Cursor suggest-compact.js with corrected hooks version,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b497135b9582,2026-02-13T04:05:12-08:00,fix: correct box() off-by-one width calculation in skill-create-output,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+554b5d6704a1,2026-02-13T03:58:16-08:00,fix: header subtitle width mismatch in skill-create-output; add 9 tests (Round 34),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bb9df39d9647,2026-02-13T03:50:44-08:00,"test: add 10 tests for birthtime fallback, stdin error, alias rollback (Round 33)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+72de0a4e2c5d,2026-02-13T03:44:10-08:00,"test: add 17 tests for validators, hooks, and edge cases (Round 32)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+167b105cac7f,2026-02-13T03:37:46-08:00,fix: reject flags passed as package manager names in setup-package-manager CLI,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b1eb99d961d7,2026-02-13T03:29:04-08:00,fix: use local-time Date constructor in session-manager to prevent timezone day shift,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+992688a67494,2026-02-13T03:20:41-08:00,"fix: add cwd to prettier hook, consistent process.exit(0), and stdout pass-through",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+253645b5e469,2026-02-13T03:11:51-08:00,"test: add 22 tests for readStdinJson, evaluate-session config, and suggest-compact hook",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b3db83d0182f,2026-02-13T03:02:28-08:00,"test: add 22 tests for validators, skill-create-output, and package-manager edge cases",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d90305383079,2026-02-13T02:54:23-08:00,test: add 15 tests for session-manager and session-aliases edge cases,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6bbcbec23d60,2026-02-13T02:49:33-08:00,"fix: exact byte pass-through in post-edit-console-warn, add 7 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f4758ff8f0b2,2026-02-13T02:45:08-08:00,"fix: consistent periodic interval spacing in suggest-compact, add 10 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4ff4872bf30f,2026-02-13T02:42:01-08:00,"fix: nullish coalescing in evaluate-session config, narrow pre-compact glob, add 11 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+27dce7794ac0,2026-02-13T02:33:40-08:00,"fix: reject empty/invalid array commands in hooks validator, add 19 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a62a3a241603,2026-02-13T02:27:04-08:00,"fix: sanitize getExecCommand args, escape regex in getCommandPattern, clean up readStdinJson timeout, add 10 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d9331cb17f78,2026-02-13T02:22:55-08:00,"fix: eliminate command injection in hooks, fix pass-through newline corruption, add 8 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f33ed4c49ef0,2026-02-13T02:16:22-08:00,"fix: clamp getAllSessions pagination params, add cleanupAliases success field, add 10 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2dbba8877b59,2026-02-13T02:09:22-08:00,"fix: reject whitespace-only command/field values in CI validators, add 10 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5398ac793d13,2026-02-13T02:01:57-08:00,"fix: clamp progressBar to prevent RangeError on overflow, add 10 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0e0319a1c21d,2026-02-13T01:59:25-08:00,"fix: clamp suggest-compact counter overflow, add 9 boundary tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c1919bb87982,2026-02-13T01:52:30-08:00,"fix: greedy regex in validate-commands captures all refs per line, add 18 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6dcb5daa5c4d,2026-02-13T01:49:39-08:00,fix: sync .opencode/ package version to 1.4.1,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e96b522af0e1,2026-02-13T01:42:56-08:00,"fix: calendar-accurate date validation in parseSessionFilename, add 22 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+34edb59e19dd,2026-02-13T01:38:29-08:00,test: add 7 package-manager priority and source detection tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+37309d47b7ec,2026-02-13T01:36:42-08:00,"fix: box alignment in test runner, update metadata counts, add 18 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3f651b7c3c16,2026-02-13T01:28:59-08:00,"fix: typecheck hook false positives, add 11 session-manager tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e9343c844b14,2026-02-13T01:26:37-08:00,fix: include .md files in instinct-cli glob (completes #216),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7b94b51269cc,2026-02-13T01:24:34-08:00,fix: add missing ReplaceInFileOptions to utils.d.ts type declaration,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6f95dbe7ba26,2026-02-13T01:18:07-08:00,"fix: grepFile global regex lastIndex bug, add 12 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+02120fbf5fd2,2026-02-13T01:11:37-08:00,"chore: add dist, __pycache__, and tasks to .gitignore",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a4848da38b03,2026-02-13T01:10:30-08:00,test: add tsconfig depth limit and cleanupAliases exception tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+307ee05b2daa,2026-02-13T01:09:16-08:00,"fix: instinct-cli glob and evolve --generate (fixes #216, #217)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c1b6e0bf11af,2026-02-13T01:07:23-08:00,test: add coverage for Claude Code JSONL format and assistant tool blocks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+654731f232bd,2026-02-13T01:05:51-08:00,"fix: add missing validation in renameAlias, add 6 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+95f63c3cb032,2026-02-13T17:04:58+08:00,docs(zh-CN): sync Chinese docs with latest upstream changes (#202),zdoc.app,TREE_OF_THOUGHT,,,0,0,0
+49aee612fb08,2026-02-13T14:34:36+05:30,docs(opencode): clarify OpenCode-specific usage (#214),Siddhi Khandelwal,TREE_OF_THOUGHT,,,0,0,0
+4843a06b3a20,2026-02-13T18:04:27+09:00,fix: Windows compatibility for hook scripts (execFileSync + tmux) (#215),dungan,TREE_OF_THOUGHT,,,0,0,0
+1823b441a9ec,2026-02-12T17:34:23-08:00,"chore: sync agentshield stats to 102 rules, 912 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+39280e251bec,2026-02-12T17:33:17-08:00,fix: use valid model name in colon-in-values frontmatter test,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+926eba97c5f6,2026-02-12T17:32:04-08:00,"fix: add input validation, date range checks, and security hardening",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+35aed05903d1,2026-02-12T17:15:21-08:00,test: add 6 tests for command validation and session content verification,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c0c54d0dae25,2026-02-12T17:14:03-08:00,fix: use execFileSync with input option for Windows-compatible stdin tests,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+824831018147,2026-02-12T17:13:59-08:00,fix: add missing clickhouse-io skill to directory listing,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+40a68b323a63,2026-02-12T17:13:05-08:00,"fix: add 7 missing commands to README, remove phantom /security entry",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e5f1c58c11d2,2026-02-12T16:58:27-08:00,test: add regression tests for empty frontmatter field rejection,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f64a61bc9417,2026-02-12T16:58:02-08:00,"chore: update AgentShield stats to 96 rules, 876 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+cb4378a0f677,2026-02-12T16:55:49-08:00,fix: correct stale counts and broken paths across docs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5107b3669ff2,2026-02-12T16:53:06-08:00,"fix: box() off-by-one alignment, add 5 tests for readStdinJson and box alignment",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+21c0f281b4bf,2026-02-12T16:52:12-08:00,"chore: update AgentShield stats to 91 rules, 851 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+64796f99be19,2026-02-12T16:51:40-08:00,fix: remove unused imports in test files (ESLint),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a74d708f7f33,2026-02-12T16:48:08-08:00,Merge pull request #208 from eltociear/add-ja-doc,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+db52081438a5,2026-02-12T16:48:01-08:00,Merge pull request #210 from Warshoow/docs/token-optimization-guide,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e8f1250573b2,2026-02-12T16:47:03-08:00,"chore: update AgentShield stats to 86 rules, 825 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+924bac4ddff7,2026-02-12T16:46:06-08:00,"fix: add word boundary to dev server hook regex, fix box() crash, add 27 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+dc9aefbee1e0,2026-02-12T16:41:58-08:00,fix: set USERPROFILE in tests for Windows os.homedir() compatibility,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+40b354a2022d,2026-02-12T16:41:39-08:00,"chore: update AgentShield stats to 792 tests, 84 rules",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b1b28f2f9269,2026-02-12T16:31:07-08:00,"fix: capture stderr in typecheck hook, add 13 tests for session-end and utils",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e9f0f1334f29,2026-02-12T16:26:57-08:00,"test: add 33 edge case tests for session-manager, session-aliases, and hooks",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6fa3bfe71d0c,2026-02-12T16:26:24-08:00,test: add cross-reference validation tests for validate-commands,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8cf472a5f4cc,2026-02-12T16:26:22-08:00,"chore: update AgentShield stats to 767 tests, 76 rules",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7ec5fc3a52d0,2026-02-12T16:24:48-08:00,fix: add event type enum to hooks schema and avoid shared RegExp state,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+bc0520c6c19b,2026-02-12T16:19:04-08:00,"fix: broken cross-references, version sync, and enhanced command validator",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8ff54d8b06de,2026-02-12T16:18:50-08:00,fix: skip code blocks in command cross-reference validation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+29a6585cb96a,2026-02-12T16:14:20-08:00,feat: add docker-patterns skill for containerized development,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d9d0d3c444c8,2026-02-12T16:12:21-08:00,fix: resolve symlinks in install.sh for npm/bun bin usage,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+492c99ac2489,2026-02-12T16:08:49-08:00,"fix: 3 bugs fixed, stdin encoding hardened, 37 CI validator tests added",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d22f172c529a,2026-02-12T16:07:39-08:00,"chore: update AgentShield stats to 697 tests, 63 rules",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fa26d00265f2,2026-02-12T16:05:09-08:00,refactor: slim down 4 remaining oversized agents (73% reduction),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+90ea2f327ce8,2026-02-12T16:02:31-08:00,"fix: 2 bugs fixed, 17 tests added for hook scripts",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+380fd09b7716,2026-02-12T16:01:01-08:00,fix: use tests/run-all.js in npm test to avoid test file drift,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7d57de12990c,2026-02-12T15:59:56-08:00,test: add 13 tests for package-manager.js untested functions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+40a4fafa7f2e,2026-02-12T15:58:59-08:00,fix: add async/timeout to hooks schema and validate in CI,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+639c9aaca375,2026-02-12T15:57:20-08:00,"fix: Windows path support, error handling, and dedup in validators",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+76b271ab6b9f,2026-02-12T15:50:04-08:00,"fix: 6 bugs fixed, 67 tests added for session-manager and session-aliases",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ff9a91319f91,2026-02-12T15:49:34-08:00,"chore: update AgentShield stats to 611 tests, 36 rules",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+34d8bf806428,2026-02-12T15:44:15-08:00,refactor: move embedded patterns from agents to skills (#174),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+328cbbdbb922,2026-02-12T15:43:47-08:00,fix: handle Windows EOF error in large-input hook test,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+733295b44e5f,2026-02-12T15:38:27-08:00,docs: enhance 5 thin commands and add Rust API example,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4209421349cd,2026-02-12T15:37:48-08:00,docs: add token optimization guide with recommended settings (#175),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f56fb331ac3c,2026-02-12T15:36:57-08:00,fix: add global ignores to ESLint config for dist and cursor dirs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e4f4c2c36d7b,2026-02-12T15:35:53-08:00,fix: pass transcript_path via stdin JSON in integration tests (#209),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e6e28882db7b,2026-02-12T15:34:25-08:00,docs: add 'When to Activate' sections to 14 skill definitions,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ed7ec29ead0c,2026-02-12T15:33:55-08:00,"fix: migrate hooks to stdin JSON input, fix duplicate main() calls, add threshold validation",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3546abc6ea1a,2026-02-12T15:33:51-08:00,fix: remove unused fs imports in 3 hook scripts,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e7b5c62eb7d0,2026-02-12T15:28:30-08:00,fix: use readFile utility in hooks and add pattern type safety,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+911d38f68699,2026-02-12T15:24:28-08:00,"feat: add 3 new skills, JS syntax validation in hooks CI, and edge case tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+20a2058bbb5b,2026-02-12T15:20:28-08:00,chore: update AgentShield test count to 520,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+8769064a3b0e,2026-02-12T15:03:59-08:00,"chore: update AgentShield stats to 35 rules, 14 patterns, 487 tests",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9e791ed30545,2026-02-12T14:49:11-08:00,fix: harden utils.js edge cases and add input validation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6686cb9bda2c,2026-02-12T14:38:00-08:00,"fix: add try-catch to inline hooks, fix schema drift",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+63be08174148,2026-02-12T14:30:10-08:00,"fix: renameAlias data corruption, empty sessionId match, NaN threshold",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6e5b45ed2883,2026-02-12T14:14:21-08:00,"fix: path traversal in install.sh, error logging in hooks",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f3a4b33d41ff,2026-02-12T14:11:33-08:00,"fix: harden CI validators, shell scripts, and expand test suite",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d04842864312,2026-02-12T14:07:10-08:00,docs: expand AgentShield section with hackathon context and add sponsors,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+be0ba0cabc9c,2026-02-12T13:56:48-08:00,feat: add TypeScript declaration files for all core libraries,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b7519cb5458c,2026-02-12T13:50:47-08:00,chore: rename opencode plugin to ecc-universal and add .npmignore,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3e0a4147f140,2026-02-12T13:50:39-08:00,fix: rename opencode package from opencode-ecc to ecc-universal,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a75660252358,2026-02-12T13:45:13-08:00,"chore: sync .cursor/ directory with latest agents, commands, and skills",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7e852a5dc577,2026-02-12T13:43:53-08:00,"fix: remove dead export, harden session-aliases, sync .cursor scripts",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+739cb2ab4827,2026-02-12T13:43:31-08:00,"docs: add hooks guide, expand planner agent, add Django example",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+36864ea11a28,2026-02-12T13:40:14-08:00,"fix: harden error handling, fix TOCTOU races, and improve test accuracy",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f375171b1373,2026-02-12T13:36:41-08:00,docs: expand Spring Boot skills and add Go microservice example,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e1a070006793,2026-02-12T13:33:52-08:00,fix: sync .cursor observe.sh and fix suggest-compact.sh session tracking,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b57eef4f7153,2026-02-12T13:24:24-08:00,"docs: improve README with agent guide, FAQ, and fix component counts",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+501bf23ca0e6,2026-02-12T12:20:27-08:00,test: update getSelectionPrompt test for new no-spawn behavior,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7356fd996fd1,2026-02-12T10:21:59-08:00,refactor: extract inline PostToolUse hooks into external scripts,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+18c5a76a9690,2026-02-12T07:06:53-08:00,"fix: improve error handling, fix bugs, and optimize core libraries",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6492190a4db6,2026-02-12T09:53:12+01:00,docs: add token optimization guide,Warshoow,TREE_OF_THOUGHT,,,0,0,0
+b2285e870a08,2026-02-12T16:03:20+08:00,docs: Add Skills Directory link to zh-CN and zh-TW README (#206),jxtan,TREE_OF_THOUGHT,,,0,0,0
+daff6c7445db,2026-02-12T16:03:17+08:00,"Revert ""Revert ""fix: correct markdown code block syntax in go-test.md"""" (#201)",zdoc.app,TREE_OF_THOUGHT,,,0,0,0
+c95ac2c7c341,2026-02-12T09:02:38+01:00,Refer in README to install.sh for installing rules instead of instructutions for manual (#196),Francis Behnen,TREE_OF_THOUGHT,,,0,0,0
+75ab8e6194de,2026-02-12T00:01:23-08:00,fix: eliminate child process spawns during session startup (#162),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0f1597dccfd2,2026-02-11T23:59:41-08:00,ci: trigger AgentShield action with fail-on-findings fix,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+422467dbe053,2026-02-11T23:57:50-08:00,fix(sessions): also fix require() paths in Cursor and zh-CN sessions commands,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+87d19f97a603,2026-02-11T23:56:41-08:00,fix(sessions): make session hooks actually persist and load context (#187),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+53d848fb15ac,2026-02-12T16:56:29+09:00,docs: add Japanese documents,Ikko Ashimine,TREE_OF_THOUGHT,,,0,0,0
+5febfc84f576,2026-02-11T23:54:38-08:00,fix(sessions): resolve require() paths for plugin installations (#200),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9406ffbfc9fe,2026-02-11T23:52:13-08:00,ci: trigger action with all dist files,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fb449eae0d70,2026-02-11T23:50:55-08:00,ci: trigger AgentShield action with updated v1 tag,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e41ee0c85832,2026-02-11T23:48:45-08:00,"fix: resolve multiple reported issues (#205, #182, #188, #172, #173) (#207)",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3bc8672432d6,2026-02-11T05:56:38-08:00,Merge pull request #183 from moonlandar/feat/cpp-testing-skill,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0278224b279c,2026-02-11T05:56:30-08:00,Merge pull request #189 from zdocapp/upstreawm/fix-markdownlint-error,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b86e4a4be6ee,2026-02-11T05:56:27-08:00,Merge pull request #190 from JackyST0/patch-1,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2f3b9aa4b93a,2026-02-11T03:40:13-08:00,ci: add AgentShield security scan workflow,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+77be80c69bdf,2026-02-11T03:27:07-08:00,feat: add AgentShield security-scan skill and README integration,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+72de58a0cd5d,2026-02-11T02:35:43-08:00,fix: include .opencode/ in npm package files and add opencode keyword,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+261332dc508b,2026-02-11T02:31:52-08:00,feat: add Cursor IDE support with pre-translated configs,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+08278a790d75,2026-02-10T17:05:22+08:00,Update README with Skills Directory link,jxtan,TREE_OF_THOUGHT,,,0,0,0
+dfd9959540f8,2026-02-10T15:17:33+08:00,fix: use 4-backtick fences for nested code blocks,neo,TREE_OF_THOUGHT,,,0,0,0
+6e5a11ab7434,2026-02-10T15:09:30+08:00,fix: resolve markdownlint issues in documentation,neo,TREE_OF_THOUGHT,,,0,0,0
+9db98673d054,2026-02-09T17:12:53+05:30,Merge branch 'affaan-m:main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+6c2e0eace8eb,2026-02-09T01:32:22-08:00,fix: update opencode-ecc plugin for SDK v1.1.53 and refresh README stats,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a5ec19cb8d88,2026-02-09T17:10:32+08:00,refine according to CONTRIBUTING.md,moonlander,TREE_OF_THOUGHT,,,0,0,0
+92a0441e9d45,2026-02-09T16:05:57+08:00,Add cpp-testing skill,moonlander,TREE_OF_THOUGHT,,,0,0,0
+77bb669dc5fb,2026-02-08T21:11:07-08:00,Merge pull request #179 from maurez83630-cmyk/revert-155-pr-fix,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+b9d09cbebf6b,2026-02-09T02:15:30+01:00,"Revert ""fix: correct markdown code block syntax in go-test.md""",maurez83630-cmyk,TREE_OF_THOUGHT,,,0,0,0
+d2191d09a263,2026-02-09T08:18:49+08:00,fix: sync plugin.json version with latest tag (#171),ericcai,TREE_OF_THOUGHT,,,0,0,0
+11ad2a875f07,2026-02-08T19:12:08-05:00,feat: add nutrient-document-processing skill (#166),Jonathan Rhyne,TREE_OF_THOUGHT,,,0,0,0
+33186f1a9312,2026-02-09T08:12:05+08:00,fix: preserve directory structure in installation to prevent file overwrites (#169),Mark L,TREE_OF_THOUGHT,,,0,0,0
+90ad2f388503,2026-02-06T02:22:21-08:00,docs: update README with latest stats and What's New section,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e4e94a7e70f1,2026-02-06T17:00:48+08:00,fix: preserve content after frontmatter in parse_instinct_file() (#161),ericcai,TREE_OF_THOUGHT,,,0,0,0
+c0fdd89c4957,2026-02-05T17:18:06-08:00,docs: enhance CONTRIBUTING.md with detailed templates,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0f7b3081eea0,2026-02-05T17:11:56-08:00,feat: add GitHub Sponsors support,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+86b5a53e5d53,2026-02-05T21:58:06+08:00,refactor(rules): restructure into common + language-specific directories,Hor1zonZzz,TREE_OF_THOUGHT,,,0,0,0
+90ad4edb1f49,2026-02-05T21:58:02+08:00,feat(skills): add configure-ecc interactive installation wizard,Hor1zonZzz,TREE_OF_THOUGHT,,,0,0,0
+6b424e31ffd1,2026-02-05T05:57:58-08:00,feat: add pm2 and multi-agent orchestration commands,Skyler Anderson,TREE_OF_THOUGHT,,,0,0,0
+88054de6734c,2026-02-05T21:57:54+08:00,docs: Add Chinese (zh-CN) translations for all documentation,zdoc,TREE_OF_THOUGHT,,,0,0,0
+1ce3a98217f3,2026-02-05T21:57:49+08:00,fix: correct markdown code block syntax in go-test.md,zdoc,TREE_OF_THOUGHT,,,0,0,0
+6d440c036df2,2026-02-05T04:39:45-08:00,"feat: complete OpenCode plugin support with hooks, tools, and commands",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d85b1ae52e45,2026-02-03T08:51:37+08:00,feat: add /sessions command for session history management (#142),xcfdszzr,TREE_OF_THOUGHT,,,0,0,0
+fab2e05ae7f0,2026-02-02T10:53:41+05:30,Merge branch 'affaan-m:main' into main,Pangerkumzuk Longkumer,TREE_OF_THOUGHT,,,0,0,0
+e7cb4428432a,2026-02-01T20:05:02+08:00,feat: add Python/Django support and enhance READMEs (#139),Freakk,TREE_OF_THOUGHT,,,0,0,0
+8d65c6d429df,2026-01-30T19:32:07+05:30,Merge branch 'affaan-m:main' into main,Graceme Kamei,TREE_OF_THOUGHT,,,0,0,0
+ae2c063ddebc,2026-01-30T08:24:19+05:30,feat(skills): add Java Spring Boot skills,manish sharma,TREE_OF_THOUGHT,,,0,0,0
+e9dfcdffd0e8,2026-01-29T12:23:53-08:00,fix: use CLAUDE_PLUGIN_ROOT for continuous-learning-v2 paths,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+675db95d53a8,2026-01-29T03:24:27-08:00,feat: unify commands and skills (v1.2.0),Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ca584e2c3ceb,2026-01-29T03:18:54-08:00,fix: escape pipe in markdown table for markdownlint,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a44a0553bb58,2026-01-29T02:58:51-08:00,fix: resolve ESLint errors and update tests for project-name fallback,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c9ef02ba42d2,2026-01-29T00:46:05-08:00,docs: add requirements section and hooks field warning,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0c53ad88b454,2026-01-29T00:11:11-08:00,"Revert ""docs: update shorthand to shortform terminology""",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c3430bdc8ad7,2026-01-29T15:06:29+08:00,docs: add Traditional Chinese translation,Dave Lin,TREE_OF_THOUGHT,,,0,0,0
+fbe2e566771e,2026-01-29T15:06:26+08:00,docs: add simplified Chinese README,Violet,TREE_OF_THOUGHT,,,0,0,0
+7c0bc2598223,2026-01-29T08:05:43+01:00,feat: add comprehensive CI/CD pipeline,Roei Bar Aviv,TREE_OF_THOUGHT,,,0,0,0
+58a97c8a84ed,2026-01-29T07:05:02Z,docs: update shorthand to shortform terminology,ZERUI CHEN,TREE_OF_THOUGHT,,,0,0,0
+04ee20827c4b,2026-01-29T12:34:58+05:30,docs: add plugin manifest validation notes,Graceme Kamei,TREE_OF_THOUGHT,,,0,0,0
+e3a1306369b6,2026-01-28T23:02:05-08:00,fix: remove duplicate hooks declaration from plugin.json,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+81003b1ca6fc,2026-01-29T01:01:19-06:00,feat: use project name as session filename fallback,tchoudhary74,TREE_OF_THOUGHT,,,0,0,0
+899630341be9,2026-01-29T12:30:24+05:30,fix: prevent command injection in Prettier hook (#102),vinayakg,TREE_OF_THOUGHT,,,0,0,0
+8894e1bced99,2026-01-27T04:01:00-08:00,docs: update README with skill-create and instinct commands,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9bc587aaaeb7,2026-01-27T04:00:17-08:00,feat: add skill-create and continuous-learning-v2 commands,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+0ced59a26ba5,2026-01-27T02:04:04-08:00,Merge pull request #91 from Hor1zonZzz/fix/readme-rules-limitation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2563d1e0abc0,2026-01-27T02:03:02-08:00,Merge pull request #92 from jhsong-musinsa/fix/plugin-manifest-validation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5dc1edba4987,2026-01-27T02:02:03-08:00,Merge pull request #93 from pangerlkr/patch-3,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2aac2d9a989a,2026-01-27T11:34:13+05:30,Create PLUGIN_SCHEMA_NOTES.md,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+cdf987d5aee6,2026-01-27T14:43:48+09:00,fix: use explicit file paths for agents in plugin.json,송정훈(JH),TREE_OF_THOUGHT,,,0,0,0
+384b255ff803,2026-01-27T13:38:17+08:00,docs: add note about rules limitation in plugin installation,m0_56676577,TREE_OF_THOUGHT,,,0,0,0
+accbb470cc9c,2026-01-26T21:26:35-08:00,feat: add proper header banner to shortform guide,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9b2233b5bcaa,2026-01-27T10:15:34+05:30,Merge branch 'affaan-m:main' into main,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+ff67b03a25c7,2026-01-26T20:45:11-08:00,feat: add images and rename guides to the-shortform-guide.md and the-longform-guide.md,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7fc5ef108854,2026-01-26T20:02:00-08:00,Merge pull request #83 from msyahidin/claude/add-golang-support-frw0Z,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+779085e27292,2026-01-26T20:00:20-08:00,fix: add missing agents and hooks declarations to plugin.json,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5e1835a759f3,2026-01-26T19:57:42-08:00,Merge pull request #81 from pangerlkr/patch-2,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2abefe655359,2026-01-26T19:57:38-08:00,Merge pull request #79 from pangerlkr/patch-1,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4bca615d3214,2026-01-26T19:57:36-08:00,Merge pull request #80 from lichengzhe/fix/stop-hook-shell-error,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a1f47f1fdf72,2026-01-26T19:57:33-08:00,Merge pull request #85 from roeiba/add-license-file,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+01ad21b1d44b,2026-01-26T10:45:39+01:00,docs: add missing MIT LICENSE file,Roei Bar Aviv,TREE_OF_THOUGHT,,,0,0,0
+c6c32cdc7acf,2026-01-26T09:35:43Z,fix: add language labels to fenced code blocks for MD040 compliance,Claude,TREE_OF_THOUGHT,,,0,0,0
+75e1e46f3feb,2026-01-26T08:20:42Z,feat: add comprehensive Golang language support,Claude,TREE_OF_THOUGHT,,,0,0,0
+2feac5aed5ec,2026-01-26T09:32:09+05:30,docs: add The Longform Guide to Everything Claude Code,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+a0b84f7b862f,2026-01-26T12:00:39+08:00,Fix: Move Stop hook inline code to separate script file,李成喆,TREE_OF_THOUGHT,,,0,0,0
+1564213dfec5,2026-01-26T09:29:45+05:30,docs: add The Shorthand Guide to Everything Claude Code,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+56ff5d444bfe,2026-01-25T22:04:47-05:00,fix: use correct unscoped agent-browser package name (#77),Jeff Scott Ward,TREE_OF_THOUGHT,,,0,0,0
+5c63fa9006ae,2026-01-25T18:21:27-08:00,"feat: v1.1.0 release - session ID tracking, async hooks, new skills",Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5670fcd34f81,2026-01-25T20:38:25-05:00,Fix plugin manifest validation errors (#75),Jeff Scott Ward,TREE_OF_THOUGHT,,,0,0,0
+1c9fa0b8f863,2026-01-26T02:46:04+03:00,Add hooks.md to documentation index (#40),voovvaa,TREE_OF_THOUGHT,,,0,0,0
+2bfd2fbbee21,2026-01-26T05:15:24+05:30,feat: add cloud infrastructure security skill (#44),Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+fae9716c0ad3,2026-01-25T16:44:54-07:00,feat(agents): add database-reviewer agent with Supabase patterns (#48),soilmass,TREE_OF_THOUGHT,,,0,0,0
+a2087a8193c2,2026-01-26T02:44:52+03:00,fix: remove unnecessary .sh hooks (#41),voovvaa,TREE_OF_THOUGHT,,,0,0,0
+b9b7831ef564,2026-01-25T15:43:48-08:00,fix: multiple community-reported issues,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+660e0d3badd3,2026-01-24T01:36:02-08:00,fix: security and documentation fixes,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+a7bc5f2a9026,2026-01-23T22:27:21-08:00,revert: remove hooks declaration - auto-loaded by convention,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+22ad036cb5bf,2026-01-23T20:47:22-08:00,fix: add hooks declaration to plugin.json for proper hook loading,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5a26daf39214,2026-01-23T23:14:43+05:30,Merge pull request #1 from pangerlkr/pangerlkr-patch-1,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+438d082e306d,2026-01-23T22:50:59+05:30,feat: add cloud infrastructure security skill,Panger Lkr,TREE_OF_THOUGHT,,,0,0,0
+5230892ee874,2026-01-23T15:14:23+08:00,fix: remove version fields from marketplace.json,gzb1128,TREE_OF_THOUGHT,,,0,0,0
+970f8bf88459,2026-01-23T15:08:07+08:00,feat: cross-platform support with Node.js scripts,zerx-lab,TREE_OF_THOUGHT,,,0,0,0
+4ec7a6b15a29,2026-01-23T14:31:20+08:00,fix: remove version field to enable automatic plugin updates,gzb1128,TREE_OF_THOUGHT,,,0,0,0
+0d438dd042b9,2026-01-22T22:29:06-08:00,style: side-by-side guide layout matching profile README,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7f4f622517b0,2026-01-22T22:19:01-08:00,feat: add star history chart and minimal badge bar,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+c3f1594acdfd,2026-01-22T21:06:23-08:00,fix: move session-end hooks from Stop to SessionEnd,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+19345df79d8e,2026-01-22T16:45:07-08:00,fix: remove duplicate hooks field from plugin.json,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+73bda1aad6ca,2026-01-22T16:42:04-08:00,fix: use ${CLAUDE_PLUGIN_ROOT} for hook script paths,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ecfbbd3da12b,2026-01-22T15:02:48-08:00,fix: use relative path './' for plugin source instead of GitHub object,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+ee5affbdbdb2,2026-01-22T13:37:10-08:00,fix: remove agents field temporarily to debug validation,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d362ae65eb21,2026-01-22T13:35:57-08:00,fix: use string format for repository field in plugin.json,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+9e8006c8cac8,2026-01-22T13:14:19-08:00,fix: use GitHub source object in marketplace.json,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+5010f82c3e2c,2026-01-22T04:16:39-08:00,feat: package as Claude Code plugin with marketplace distribution,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+4491f15577a6,2026-01-21T12:23:50-08:00,Clarify README description of the repository,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e6440d32b85c,2026-01-21T12:05:58-08:00,docs: restructure README to flow shorthand → longform guides together,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+fa0928a3d7cf,2026-01-21T11:40:43-08:00,Enhance README with update section and resources,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+2d6fd7007e84,2026-01-20T19:57:05-08:00,feat: add strategic-compact hook and update hooks.json with all hooks,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+f96ef1e6ab35,2026-01-20T18:51:09-08:00,feat: add memory persistence hooks and context files,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+7d3ea0f5762c,2026-01-20T18:40:02-08:00,feat: add strategic compact skill,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6bf102dbaa3e,2026-01-20T18:33:33-08:00,feat: add continuous learning skill with session examples,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+3c1e7d991059,2026-01-17T18:14:33-08:00,Clarify repository purpose and additional resources,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+62a80df941a0,2026-01-17T18:07:13-08:00,Update README with image and guide link,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+6eefb41d6112,2026-01-17T18:06:52-08:00,Update README with guide reading reminder,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+d7cf890b580c,2026-01-17T18:06:40-08:00,Fix formatting in README.md for guide link,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+e57979c1e9c6,2026-01-17T18:06:03-08:00,Update README with image and guide link,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+45959c326ee2,2026-01-17T17:49:33-08:00,Initial release: Complete Claude Code configuration collection,Affaan Mustafa,TREE_OF_THOUGHT,,,0,0,0
+db25c1f67782,2026-04-16T15:47:37+09:00,fix(zenodo): simplify schema to minimum required fields,Kyeong Sun Kim,numerical_model_fresh,646fe4a4-987f-4297-9cb7-b95f6a447e23,TREE,4,24,1
+adc4f8533d12,2026-04-16T15:32:17+09:00,fix(zenodo): set real ORCID so DOI minting succeeds,Kyeong Sun Kim,numerical_model_fresh,646fe4a4-987f-4297-9cb7-b95f6a447e23,TREE,2,1,2
+f1c15b78e6d0,2026-04-16T15:27:55+09:00,chore: gitignore PyPI tokens and secrets files,Kyeong Sun Kim,numerical_model_fresh,646fe4a4-987f-4297-9cb7-b95f6a447e23,TREE,11,0,1
+085d13779ddc,2026-04-16T15:19:43+09:00,release: v1.0.0,Kyeong Sun Kim,numerical_model_fresh,646fe4a4-987f-4297-9cb7-b95f6a447e23,TREE,179,8,7
+5d8835b803b1,2026-04-15T18:42:34+09:00,docs(readme): rename title to 'Op³ — OptumGX+OpenSeesPy+OpenFAST',Kyeong Sun Kim,numerical_model_fresh,1231acfd-2a3c-4ce0-8550-53c10b8ca419,TREE,1,1,1
+e35f8711df45,2026-04-15T18:34:43+09:00,docs(readme): overhaul GitHub landing page for rc2 + Studio + Anchors,Kyeong Sun Kim,numerical_model_fresh,1231acfd-2a3c-4ce0-8550-53c10b8ca419,TREE,136,27,1
+b84adb7c5f44,2026-04-15T18:30:19+09:00,feat: complete A+C+D batches + audit doc + pre-existing test fixes,Kyeong Sun Kim,numerical_model_fresh,1231acfd-2a3c-4ce0-8550-53c10b8ca419,TREE,1464,69,32
+3ffaa85d739f,2026-04-15T18:05:20+09:00,"feat(studio): Phase 6 -- ErrorBoundary, README polish, CHANGELOG entry",Kyeong Sun Kim,numerical_model_fresh,164847ae-3c22-4fd5-8456-b38e4c1795e4,TREE,165,26,4
+5f2fc23e62d3,2026-04-15T18:03:10+09:00,feat(studio): Phase 4 -- 8 tab UIs (Site/Foundation/Anchor/Scour live + 4 stubs),Kyeong Sun Kim,numerical_model_fresh,164847ae-3c22-4fd5-8456-b38e4c1795e4,TREE,1408,55,20
+1ce40583b0e7,2026-04-15T17:54:02+09:00,feat(studio): Phase 5 -- LLM chat (Anthropic + sandboxed op3 execution),Kyeong Sun Kim,numerical_model_fresh,164847ae-3c22-4fd5-8456-b38e4c1795e4,TREE,875,10,11
+2b236a1adb15,2026-04-15T17:40:55+09:00,feat(studio): Phase 3 -- Three.js viewer + mesh generator (bucket / anchor / tripod),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,1055,9,8
+858304fd0aea,2026-04-15T17:35:57+09:00,feat(studio): Phase 2 -- backend API endpoints over real op3,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,525,6,6
+acd8720237c7,2026-04-15T17:33:17+09:00,feat(studio): Phase 1 -- skeleton (FastAPI + React + docker-compose),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,1102,0,38
+8ff821a006e2,2026-04-15T17:19:58+09:00,docs(anchors): add suction-anchor section to README + CHANGELOG + pyproject extras,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,111,0,3
+3c2ce5da54a1,2026-04-15T17:16:07+09:00,feat(anchors): add MoorPy coupling + safety-factor time series + design report,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,586,0,5
+9237366be6fd,2026-04-15T17:09:57+09:00,feat(anchors): add cyclic capacity reduction (Andersen 2015),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,420,0,5
+17ca38145700,2026-04-15T17:07:28+09:00,feat(anchors): OptumGX anchor driver + FE post-processor + guide,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,766,0,4
+3ee1d3454652,2026-04-15T17:03:03+09:00,feat(anchors): add padeye optimization (analytical + sensitivity + novel centroid),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,600,0,5
+310d357dc594,2026-04-15T16:59:32+09:00,feat(anchors): add installation analysis (self-weight + suction + plug-heave),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,663,0,5
+0502cda26242,2026-04-15T16:56:06+09:00,feat(anchors): implement 5 capacity methods + DNV-RP-E303 / API-RP-2SK standards,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,1505,0,8
+ed1dbe95b166,2026-04-15T16:46:59+09:00,"feat(anchors): add SuctionAnchor, UndrainedClayProfile, MooringLoad dataclasses",Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,462,0,4
+034cef7ff6b2,2026-04-15T16:24:51+09:00,docs: add Ch8 digital-twin encoder diagram (8th mermaid),Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,66,0,1
+caa5eefa9809,2026-04-15T16:22:59+09:00,docs: condense README as landing page + vertical diagrams + collapsibles,Kyeong Sun Kim,numerical_model_fresh,4ef87528-72ae-4ea2-8d89-0466ad7a07cb,TREE,279,333,1
+af046ee8b63a,2026-04-15T16:08:21+09:00,docs: add 7th mermaid diagram (Ch7 Bayesian scour-monitoring loop),Kyeong Sun Kim,numerical_model_fresh,8d49f828-8324-4e7b-8285-d5fd1870a556,TREE,83,0,1
+70119816eca4,2026-04-15T16:06:21+09:00,docs: upgrade README visuals with 6 mermaid diagrams,Kyeong Sun Kim,numerical_model_fresh,8d49f828-8324-4e7b-8285-d5fd1870a556,TREE,244,31,1
+3cc5417a59d9,2026-04-11T14:23:34+09:00,docs: Op3 Complete Review Workbook (all 7 protocols in one DOCX),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,489,0,2
+7882b7f5d9c0,2026-04-11T14:17:58+09:00,feat: 7 human-AI interaction improvements,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,1064,0,14
+e128c9cd4558,2026-04-11T13:26:30+09:00,docs: Human Review Workbook for AI-generated code audit,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,325,0,2
+8b178c6f0daf,2026-04-11T11:17:58+09:00,docs: add 11 new figures to gallery (34 total),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,90,0,1
+28d46aa94644,2026-04-11T11:16:48+09:00,"feat: complete visualization coverage (11 new figures, 34 total)",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,637,0,12
+f0dd6c72e9b7,2026-04-11T07:37:50+09:00,fix(docs): zero Sphinx warnings (strict -W build passes),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,44,34,10
+05de0681b711,2026-04-11T07:22:37+09:00,"chore: version 1.0.0-rc2, PyPI ready, Codecov, CODEOWNERS",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,83,7,7
+489b81897afb,2026-04-11T07:11:39+09:00,"fix(docs): RTD build — relax fail_on_warning, fix duplicates",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,8,6,4
+a3452c75c19c,2026-04-11T07:06:50+09:00,fix(docs): zero-warning RTD build (mock imports + dedup + docstring),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,32,28,4
+666530b14f24,2026-04-11T05:45:54+09:00,feat: upgraded CI + gallery + intersphinx,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,241,66,4
+b09dd1222463,2026-04-11T05:39:25+09:00,docs: zero-warning Sphinx build + ReadTheDocs strict mode,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,2,2,3
+510673c36922,2026-04-11T05:30:30+09:00,chore: upgrade repo for professional open-source release,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,353,39,10
+1b968069b8f4,2026-04-11T03:23:23+09:00,"fix: H7+H8+H10+M5 — tests, dedup, bare excepts, paths",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,925,1353,29
+7ddf2c181dda,2026-04-11T03:11:19+09:00,"fix: critical audit fixes (C1-C4, H1-H5, M1)",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,292,104,36
+161e791592e5,2026-04-10T21:59:12+09:00,feat: Tier 2 + Tier 3 visualization (6 figures + interactive HTML),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,884,0,8
+b72a9ae2deaf,2026-04-10T21:48:05+09:00,feat: Tier 1 defense-quality visualization (4 figures),Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,639,0,5
+bd40cdf2874b,2026-04-10T21:37:47+09:00,feat: PyVista OptumGX + welib OpenFAST visualization modules,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,834,0,10
+b1de21719d59,2026-04-10T21:20:48+09:00,feat: opsvis visualization module for Op3 structural analysis,Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,521,0,8
+c22fcda3e408,2026-04-10T21:12:36+09:00,"feat(vv): close all remaining gaps (35/36 in-scope, 97%)",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,695,0,4
+2528d316ac37,2026-04-10T21:01:41+09:00,"feat: nonlinear BNWF, cyclic analysis, fatigue DEL, OpenFAST load validation",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,1000,0,4
+99b75859060b,2026-04-10T20:50:43+09:00,"feat(vv): add full-pipeline benchmarks (31/32 in-scope, 97%)",Kyeong Sun Kim,numerical_model_fresh,63915fbf-ea5d-4ddd-a6c4-fe4a973e911e,TREE,854,0,4
+5faa67650f32,2026-04-10T20:15:04+09:00,"feat(vv): comprehensive cross-validation (27/28 benchmarks, 96%)",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,4014,179,20
+f13a8b398ffb,2026-04-10T13:06:04+09:00,"data: add 5 more benchmarks (INNWIND, OC3, OC4, Arany, Damgaard)",Kyeong Sun Kim,numerical_model_fresh,e751cc2d-4d52-4090-a9e0-373cac414be6,TREE,37,0,1
+05ca9fbad012,2026-04-10T12:59:20+09:00,data: save extracted benchmark data from 10 published papers,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,114,0,1
+aeb4959aaf73,2026-04-10T12:57:52+09:00,feat: extended cross-validation reference dataset (10 published sources),Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,231,0,1
+3634866fde34,2026-04-10T12:47:26+09:00,feat: comprehensive cross-validation suite (10/14 benchmarks verified),Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,607,0,3
+8306c9f77ff2,2026-04-10T12:41:20+09:00,feat(pisa): cross-validation against Byrne/Burd 2020 reference data,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,365,0,4
+d1b2cd0f820f,2026-04-10T11:45:11+09:00,docs+feat: expand 5 user manual chapters + fix autodoc + asymmetric eigenvalue,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,315,50,7
+496aeeeee7e5,2026-04-10T11:34:27+09:00,fix(docs): align Sphinx project name with html_title,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1,1,1
+4a225cbafbfa,2026-04-10T11:32:25+09:00,fix: remaining 121/121 references -> 20/21,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,2,2,2
+884d35f875c8,2026-04-10T11:29:37+09:00,docs: comprehensive update to v1.0.0-rc1 across README + Sphinx + CITATION,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,42,37,7
+ec0c81c7e090,2026-04-09T18:28:00+09:00,feat(dash): add Sequential Tracker + Diagnostic Agent tabs (8 tabs total),Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,221,0,1
+c02a95c0c2c1,2026-04-09T18:14:48+09:00,chore: add encoder + viz optional dependency extras,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,2,0,1
+f52c41a425c4,2026-04-09T17:38:59+09:00,data: save sequential Bayesian + asymmetric scour + agent results,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,581,0,4
+676c997a81ee,2026-04-09T17:23:30+09:00,feat: implement 4 future-work items as working code,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1070,0,5
+2f9bfe8969b9,2026-04-09T15:26:59+09:00,"fix(docs): wire user_manual/index, update conf.py title, delete old stub",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3,460,3
+9279e79e665d,2026-04-09T15:22:32+09:00,fix(tests)+docs: test-fix 13/21→20/21 + JOSS paper + RTD user-manual wiring,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,89,47,28
+163501e3f191,2026-04-09T15:05:34+09:00,docs(user-manual): third-party case study walk-through,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,139,10,1
+bf54c4129aa8,2026-04-09T14:33:12+09:00,"feat+fix: redaction syntax, paper.md, user manual expansion, launcher",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,321,148,16
+b3d1cfc7234a,2026-04-09T13:59:40+09:00,feat(v-01+v-02): OC6 Phase II + PISA cross-validation scaffolds,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,278,0,2
+b6771cc7052f,2026-04-09T13:52:47+09:00,docs(user-manual): Sphinx scaffold for v1.0 user manual (V-03),Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,173,0,11
+acd43ff371b3,2026-04-09T13:43:04+09:00,"test+data(v5): data manifest (537 entries, 56 MB) + op3_viz coverage 67→83 %",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3158,0,7
+266cd32fdb2c,2026-04-09T13:36:29+09:00,docs(changelog): v1.0.0-rc1 release notes,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,52,0,1
+1b422798f614,2026-04-09T13:27:28+09:00,"feat(v1.0.0-rc1): project file format, report gen, compliance tab, installer spec, sample projects",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,851,2,11
+f57d468ebf15,2026-04-09T12:13:11+09:00,security(data): remove committed proprietary OptumGX / blade / MC data; expand op3_viz tests,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,159,1891,10
+6a4387f6e8fa,2026-04-09T12:01:54+09:00,test(op3_viz): add unit tests for geometry + Dash app smoke tests,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,152,0,3
+8669e22f6303,2026-04-09T10:14:15+09:00,fix(op3_viz): wire runtime loaders through op3.data_sources,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,81,9,3
+d2c78ce9d15d,2026-04-09T10:06:29+09:00,docs(ack): add proper citation for Gunsan 4.2 MW case study data source,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,43,5,1
+b0e126ab4b1a,2026-04-09T09:43:36+09:00,redact: scrub proprietary site identifiers and dimensions,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,15838,14381,283
+2983482cd29a,2026-04-09T08:48:43+09:00,feat(v0.4.1): real Gunsan tower geometry + RNA inertia + Mode D fix,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,299,71,8
+654b3f65103e,2026-04-09T08:31:56+09:00,feat(v0.4.0): SSOT reconciliation with PHD real OptumGX data,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1584,124,27
+3e26d3717f58,2026-04-09T07:41:16+09:00,fix(ci): simpler mesh convergence + verbose tracing in consistency,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,28,20,1
+344bcd253690,2026-04-09T07:15:21+09:00,fix(ci): ops.wipe() between tests in every standalone runner,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,69,0,11
+56229f2445e6,2026-04-08T21:59:23Z,ci(deps): Bump actions/upload-artifact from 4 to 7,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,2,2,1
+be44a8597579,2026-04-09T06:58:21+09:00,fix(ci): drop Python 3.11 + remove -W from Sphinx stub build,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,20,11,2
+cfb753b76981,2026-04-09T06:55:01+09:00,docs: add Zenodo DOI badge and citation metadata,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,19,10,2
+6a5d4a30ef3e,2026-04-09T06:49:58+09:00,feat: Zenodo integration + CI consistency test cross-platform fix,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,87,7,3
+c8dd913d5ae9,2026-04-09T06:45:46+09:00,Update README.md,ksk5429,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1,1,1
+4f1bf57f5276,2026-04-09T06:42:19+09:00,Update README.md,ksk5429,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,2,2,1
+76b4a51e144e,2026-04-08T21:36:43Z,ci(deps): Bump actions/setup-python from 5 to 6,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3,3,2
+3cf657a6c8d5,2026-04-08T21:36:43Z,ci(deps): Bump actions/setup-python from 5 to 6,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3,3,2
+a3abcdc37f96,2026-04-09T06:35:41+09:00,fix(ci): install openseespylinux on Linux runner + decouple docs,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,12,3,1
+ad703893479e,2026-04-09T06:35:41+09:00,fix(ci): install openseespylinux on Linux runner + decouple docs,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,12,3,1
+b3f14caa268d,2026-04-09T06:32:13+09:00,Create FUNDING.yml,ksk5429,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,15,0,1
+e6aadf5e7d19,2026-04-09T06:32:13+09:00,Create FUNDING.yml,ksk5429,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,15,0,1
+9ddc32cbddeb,2026-04-09T06:28:20+09:00,chore: remove superseded scripts/test_all_examples.py,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,0,87,1
+c3130ca49172,2026-04-09T06:28:20+09:00,chore: remove superseded scripts/test_all_examples.py,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,0,87,1
+030aa71a4ea5,2026-04-08T21:27:59Z,ci(deps): Bump actions/upload-artifact from 4 to 7,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,2,2,1
+6975ff9a01e0,2026-04-09T06:26:56+09:00,docs(ci): diagnose CI failures + remove legacy verify.yml,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,100,53,2
+ecb93dec23ef,2026-04-09T06:26:56+09:00,docs(ci): diagnose CI failures + remove legacy verify.yml,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,100,53,2
+5251b7f3d961,2026-04-09T06:23:24+09:00,feat(mode-b): diagnostic for off-diagonal coupling loss,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,43,7,1
+0d69664ed54d,2026-04-09T06:23:24+09:00,feat(mode-b): diagnostic for off-diagonal coupling loss,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,43,7,1
+2be5808dc117,2026-04-09T06:21:15+09:00,fix(dlc): scale subprocess timeout with TMax,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,5,1,1
+50bce9bfda76,2026-04-09T06:21:15+09:00,fix(dlc): scale subprocess timeout with TMax,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,5,1,1
+f3432fea6121,2026-04-08T21:46:37+09:00,fix(docs): make ReadTheDocs + GitHub Pages hosting actually work,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,568,544,17
+c37a7fa4a5c2,2026-04-08T21:46:37+09:00,fix(docs): make ReadTheDocs + GitHub Pages hosting actually work,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,568,544,17
+b2c8e2470af2,2026-04-08T21:40:31+09:00,fix(audit): resolve DNV C6/C8 + IEC I7.4.7 placeholders,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,194,92,7
+db93766914dd,2026-04-08T21:40:31+09:00,fix(audit): resolve DNV C6/C8 + IEC I7.4.7 placeholders,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,194,92,7
+61faa38d9643,2026-04-08T21:33:02+09:00,docs: comprehensive Sphinx + tutorial + RTD + Pages documentation package,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3145,21,19
+a7d3c4aa6a82,2026-04-08T21:33:02+09:00,docs: comprehensive Sphinx + tutorial + RTD + Pages documentation package,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,3145,21,19
+33110d808194,2026-04-08T12:09:11Z,ci(deps): Bump actions/cache from 4 to 5,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1,1,1
+440ef0738a2a,2026-04-08T12:09:11Z,ci(deps): Bump actions/cache from 4 to 5,dependabot[bot],numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1,1,1
+780ceb27d9d8,2026-04-08T21:05:51+09:00,fix(pisa): depth functions + eccentric-load compliance + real G profiles,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,244,86,5
+82a0e688ecbf,2026-04-08T21:05:51+09:00,fix(pisa): depth functions + eccentric-load compliance + real G profiles,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,244,86,5
+52b86ba5fd99,2026-04-08T20:45:27+09:00,feat(v0.3.1): framework hardening + real Bergua/McAdam/Byrne refs,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1801,164,24
+bccb95b1d010,2026-04-08T20:45:27+09:00,feat(v0.3.1): framework hardening + real Bergua/McAdam/Byrne refs,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,1731,164,23
+b4cc79cfc965,2026-04-08T20:12:40+09:00,feat(ci): add consolidated release validation report generator,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,237,0,1
+7ff7bb07e34a,2026-04-08T20:12:40+09:00,feat(ci): add consolidated release validation report generator,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,237,0,1
+e6f147906d53,2026-04-08T20:08:32+09:00,release: v0.3.0 -- Track C industry-grade aspiration,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,13009,14,80
+04a64398666a,2026-04-08T20:08:32+09:00,release: v0.3.0 -- Track C industry-grade aspiration,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,11548,14,70
+1d5192d469a6,2026-04-08T16:24:36+09:00,docs(verify): extend NREL benchmark to 11 models with auto-parsed metadata,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,260,2,3
+430656c4886c,2026-04-08T16:24:36+09:00,docs(verify): extend NREL benchmark to 11 models with auto-parsed metadata,Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,260,2,3
+e7f30113421b,2026-04-08T16:17:34+09:00,"feat: initial Op^3 framework v0.1 — 11 examples, 33/33 analyses passing",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,0,0,0
+d60912e30302,2026-04-08T16:17:34+09:00,"feat: initial Op^3 framework v0.1 — 11 examples, 33/33 analyses passing",Kyeong Sun Kim,numerical_model_fresh,e8c4860f-09c4-4c76-b29d-9c156cc31214,TREE,0,0,0
+73e1aa1de0d1,2026-04-17T18:49:16+09:00,"feat: Tier 1 derived intelligence — recovery score, training load, lag-correlations, blood projections, recomposition",Kyeong Sun Kim,health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,34366,6805,34
+2762f328eb03,2026-04-17T09:37:11Z,chore: regenerate dashboard charts,github-actions[bot],health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,6810,6810,19
+716d75271802,2026-04-17T18:35:36+09:00,fix: skip ETL in CI when raw Garmin JSONs not available,Kyeong Sun Kim,health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,7,2,1
+53ebacff6622,2026-04-17T18:34:54+09:00,fix: update Pages link to health_tracker repo,Kyeong Sun Kim,health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,1,1,1
+e2e85e9c0ebd,2026-04-17T18:32:41+09:00,feat: add interactive heatmap tab to dashboard,Kyeong Sun Kim,health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,102,0,2
+8e707465fd58,2026-04-17T18:28:56+09:00,"feat: multi-variable heatmap calendar, single-page interactive dashboard",Kyeong Sun Kim,health_tracker,37653c7d-a068-4d3a-9ec7-0e0394d26373,TREE,21709,13777,17
+09c6acf3fbd4,2026-04-17T18:22:34+09:00,feat: initial health tracker dashboard,Kyeong Sun Kim,health_tracker,aa1d5b3f-5c89-43ab-b709-c21fc4619e39,TREE,0,0,0
